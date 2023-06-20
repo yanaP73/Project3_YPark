@@ -52,7 +52,10 @@ li a:link {
 }
 
 #cart {
-    padding: 12px;
+    padding-top: 14px;
+    padding-bottom: 10px;
+    padding-right: 0px;
+    padding-left: 24px;
 }
 
 #avatar {
