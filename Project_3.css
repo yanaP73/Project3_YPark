@@ -1,19 +1,15 @@
-#container1 {
+#heading {
     display: block;
-    padding-bottom: 0px;
     border-bottom: 2px solid hsl(219, 9%, 45%);
+    padding-left: 30px;
    }
 
 ul {
     list-style-type: none;
-    margin: 50px;
-    
     overflow: hidden;
-    
-    
+    margin: 50px;    
 }
 li {
-
     float: left;
 }
 li a {
@@ -50,7 +46,7 @@ li a:link {
     max-width: 70%;
     max-height: 70%;
     border-radius: 15px;
-    margin-top: 50px;
+    margin: 70px;
 }
 
 #cart {
