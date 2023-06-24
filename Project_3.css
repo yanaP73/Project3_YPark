@@ -72,7 +72,18 @@ li:hover{
 #snCompany{
     text-transform: uppercase;
     color:hsl(26, 100%, 55%);
-    font-weight: bold;
+    font-family: 'Kumbh Sans', sans-serif;
+    letter-spacing:1px;
+    font-weight: 700;
+    font-size: 11px;
+}
+#productName{
+    font-weight: 700;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+#description{
+    font-size: 16px;
+    font-family: 'Kumbh Sans', sans-serif;
 }
 
 .attribution {
