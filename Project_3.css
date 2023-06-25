@@ -115,7 +115,10 @@ li:hover{
     font-weight: bold;
 }
 
-   
+.addCartbtns  {
+    vertical-align: center;
+    /*Still couldn't figure out*/
+}
 .quantity{
     width: 34px;
     border: none;
@@ -128,7 +131,7 @@ li:hover{
     border: none;
     background-color:hsl(223, 64%, 98%);
     float: left;
-    vertical-align: middle;
+    
     
     
 }
@@ -141,6 +144,7 @@ li:hover{
 .add{
     float: left;
     
+    
 }
 .add-to-cart{
     color: hsl(25, 100%, 94%);
@@ -152,6 +156,7 @@ li:hover{
     padding-right: 70px;
     background-color: hsl(26, 100%, 55%);
     border-radius: 8px;
+    
 }
 
 .attribution {
