@@ -11,9 +11,7 @@
     <title>Frontend Mentor | E-commerce product page</title>
 
     <link rel="stylesheet" href="Project_3.css">
-    <link rel="stylesheet" 
-    
-    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
@@ -48,7 +46,6 @@
 
     <div class="container">
         <div class="col-sm-7" href="#"><img id="product1" src=".\images\image-product-1.jpg">
-            <div class=""></div>
         </div>
         
         <div class="col-sm-5">
@@ -59,8 +56,10 @@
             <p id="description">These low-profile sneakers are your perfect casual wear companion. Featuring a
             durable rubber outer sole, they'll withstand everything the weather can offer.
             </p>
-            <p id="discountPrice">$125.00 <span id="halfPrice">50%</span></p>
-            <p id="oldPrice">$250.00</p>
+            <!--Formated the text. Source used: https://css-tricks.com/forums/topic/howto-middle-align-small-text-next-to-large-text/-->
+            <div id="newPrice"><span id="discountPrice">$125.00  </span><span id="halfPrice"> 50%</span> 
+            </div>
+            <p id="oldPrice">$250</p>
             <div class="quantity">
                 <button class="plus-btn" type="button" name="button">
                   <img src=".\images\icon-minus.svg" alt="" />
