@@ -64,18 +64,25 @@
                 <p id="oldPrice">$250.00</p>
     
                 <!--Created quantity buttons "-" and '+' with "0" value. Source used: https://designmodo.com/shopping-cart-ui/ -->
-                <div class="quantity">
-                    <button class="plus-btn" type="button" name="button">
-                        <img src=".\images\icon-minus.svg" alt="" />
-                    </button>
-                    <input type="text" name="name" value="0">
-                    <button class="minus-btn" type="button" name="button">
-                        <img src=".\images\icon-plus.svg" alt="" />
-                    </button>
-                    <button class="add-to-cart" type="button" name="button">Add to Cart
+                <!--https://codepen.io/camburley/pen/eYYBmEG-->
+               
+                    <div class="wrapper">
+                
+                        <button class="btn btn--minus" @click="changeCounter('-1')" type="button" name="button">
+                            <img src=".\images\icon-minus.svg" alt="" />
+                        </button>
+                        <input class="quantity" type="text" name="name" value="0">
+                        <button class="btn btn--plus" @click="changeCounter('1')" type="button" name="button">
+                            <img src=".\images\icon-plus.svg" alt="" />
+                        </button>
+                    </div>
+                
+                <div class="add">
+                    <button class="add-to-cart" type="button" name="button">Add to cart
                     </button>
                 </div>
-            </div>
+            
+            
         </div>
 
 

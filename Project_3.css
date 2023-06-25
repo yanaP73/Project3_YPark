@@ -73,24 +73,23 @@ li:hover{
 }
 .text{
     margin-top: 120px;
+    font-family: 'Kumbh Sans', sans-serif;
 } 
 
 #snCompany{
     text-transform: uppercase;
     color:hsl(26, 100%, 55%);
-    font-family: 'Kumbh Sans', sans-serif;
     letter-spacing:1px;
     font-weight: 700;
     font-size: 11px;
 }
 #productName{
     font-weight: 700;
-    font-family: 'Kumbh Sans', sans-serif;
     font-size: 30px;
 }
 #description{
     font-size: 16px;
-    font-family: 'Kumbh Sans', sans-serif;
+    
 }
 #newPrice {
     height: 50px;
@@ -98,7 +97,6 @@ li:hover{
 }
 #discountPrice{
     font-weight: 700;
-    font-family: 'Kumbh Sans', sans-serif;
     font-size: 20px;
     vertical-align: middle;
 }
@@ -116,8 +114,44 @@ li:hover{
     font-size: 12px;
     font-weight: bold;
 }
+
+   
 .quantity{
-    padding-top: 30px;
+    width: 34px;
+    border: none;
+    text-align: center;
+    background-color:hsl(223, 64%, 98%)
+}
+.wrapper{
+    width: 120px;
+    margin-right: 10px;
+    border: none;
+    background-color:hsl(223, 64%, 98%);
+    float: left;
+    vertical-align: middle;
+    
+    
+}
+.btn--minus{
+    background-color:hsl(223, 64%, 98%)
+}
+.btn--plus{
+    background-color:hsl(223, 64%, 98%)
+}
+.add{
+    float: left;
+    
+}
+.add-to-cart{
+    color: hsl(25, 100%, 94%);
+    font-weight: bold;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left:70px;
+    padding-right: 70px;
+    background-color: hsl(26, 100%, 55%);
+    border-radius: 8px;
 }
 
 .attribution {
