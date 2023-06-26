@@ -70,8 +70,9 @@ li:hover{
     max-width: 75%;
     max-height: 75%;
     border-radius: 15px;
-    margin: 70px;
-    text-align: center;
+    margin-top: 70px;
+    margin-left: 70px;
+    margin-right: 70px;
         
 }
 .text{
