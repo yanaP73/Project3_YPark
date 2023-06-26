@@ -17,87 +17,96 @@
 </head>
 
 <body>
-    <div class="container" id="header">
+    <div class="container" id="body">
+        
+<!--Header-->
+<div class="row" id="header">
+      
+    <div class="col-sm-2" id="col-sm-2-logo" href="#">
+<img id="logo" src=".\images\logo.svg">
+</div>
 
-        <div class="col-sm-2" id="col-sm-2" href="#"><img id="logo" src=".\images\logo.svg">
-        </div>
-        <div class="col-sm-7" ;>
-            <ul class="nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Collections</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Men</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Women</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
-            </ul>
-        </div>
-        <div class="col-sm-1"><img id="cart" src=".\images\icon-cart.svg" ;></div>
-        <div class="col-sm-2"><img id="avatar" src=".\images\image-avatar.png"></div>
+<div class="col-sm-8">
+<ul class="nav">
+  <li class="nav-item">
+      <a class="nav-link" href="#">Collections</a>
+  </li>
+  <li class="nav-item">
+      <a class="nav-link" href="#">Men</a>
+  </li>
+  <li class="nav-item">
+      <a class="nav-link" href="#">Women</a>
+  </li>
+  <li class="nav-item">
+      <a class="nav-link" href="#">About</a>
+  </li>
+  <li class="nav-item">
+      <a class="nav-link" href="#">Contact</a>
+  </li>
+</ul>
+</div>
+
+<div class="col-sm-1">
+<img id="cart" src=".\images\icon-cart.svg">
+</div>
+
+<div class="col-sm-1">
+<img id="avatar" src=".\images\image-avatar.png">
+</div>
+</div>
+
+<!--Body-->
+<div class="row">
+
+<div class="col-sm-6" href="#"><img id="product1" src=".\images\image-product-1.jpg">
+</div>
+
+<div class="col-sm-6">
+<div class="text">
+
+  <h5 id="snCompany">Sneaker Company</h5>
+
+  <h2 id="productName">Fall Limited Edition <br> Sneakers</h2>
+
+  <p id="description">These low-profile sneakers are your perfect casual wear companion. Featuring a
+      durable rubber outer sole, they'll withstand everything the weather can offer.
+  </p>
+  <!--Formatted the text. Source used: https://css-tricks.com/forums/topic/howto-middle-align-small-text-next-to-large-text/-->
+  <div id="newPrice"><span id="discountPrice">$125.00 </span><span id="halfPrice"> 50%</span>
+  </div>
+  <p id="oldPrice">$250.00</p>
+  <div class="addCartbtns">
+    <div class="wrapper">
+
+        <button class="btn btn--minus" @click="changeCounter('-1')" type="button" name="button">
+            <img src=".\images\icon-minus.svg" alt="" />
+        </button>
+        <input class="quantity" type="text" name="name" value="0">
+        <button class="btn btn--plus" @click="changeCounter('1')" type="button" name="button">
+            <img src=".\images\icon-plus.svg" alt="" />
+        </button>
     </div>
 
-    <div class="container">
-        <div class="col-sm-6" href="#"><img id="product1" src=".\images\image-product-1.jpg">
-        </div>
-    
-        <div class="col-sm-6">
-            <div class="text">
-    
-                <h5 id="snCompany">Sneaker Company</h5>
-    
-                <h2 id="productName">Fall Limited Edition <br> Sneakers</h2>
-    
-                <p id="description">These low-profile sneakers are your perfect casual wear companion. Featuring a
-                    durable rubber outer sole, they'll withstand everything the weather can offer.
-                </p>
-                <!--Formatted the text. Source used: https://css-tricks.com/forums/topic/howto-middle-align-small-text-next-to-large-text/-->
-                <div id="newPrice"><span id="discountPrice">$125.00 </span><span id="halfPrice"> 50%</span>
-                </div>
-                <p id="oldPrice">$250.00</p>
-    
-                <!--Created quantity buttons "-" and '+' with "0" value. Source used: https://designmodo.com/shopping-cart-ui/ -->
-                <!--https://codepen.io/camburley/pen/eYYBmEG-->
-               <div class="addCartbtns">
-                    <div class="wrapper">
-                
-                        <button class="btn btn--minus" @click="changeCounter('-1')" type="button" name="button">
-                            <img src=".\images\icon-minus.svg" alt="" />
-                        </button>
-                        <input class="quantity" type="text" name="name" value="0">
-                        <button class="btn btn--plus" @click="changeCounter('1')" type="button" name="button">
-                            <img src=".\images\icon-plus.svg" alt="" />
-                        </button>
-                    </div>
-                
-                <div class="add">
-                    <button class="add-to-cart" type="button" name="button">Add to cart
-                    </button>
-                </div>
-            </div>
-            
-        </div>
+<div class="add">
+    <button class="add-to-cart" type="button" name="button">Add to cart
+    </button>
+</div>
+</div>
+</div>
 
+</div>
+</div>
 
+<!--Footer-->
+<div class="row">
 
-       
-            <div class="col-sm-12">
-                <div class="attribution">
-                    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-                    Coded by <a href="#">Yana Park</a>
-                </div>
-            </div>
-            
-        </div>
-    </div>
-
+<div class="col-sm-12">
+<div class="attribution">
+Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+Coded by <a href="#">Yana Park</a>
+</div>
+</div>
+</div>
 </body>
 
 </html>
