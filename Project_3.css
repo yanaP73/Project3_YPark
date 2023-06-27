@@ -150,10 +150,17 @@ li:hover {
     background-color:hsl(223, 64%, 98%)
 }
 .add{
-    float: left;
-    
-    
+    float: left; 
 }
+
+#btn_cart{
+    height: 15px;
+    width: 15px;
+}
+#span_cart{
+    padding-right: 15px;
+}
+
 .add-to-cart{
     color: hsl(25, 100%, 94%);
     font-weight: bold;
