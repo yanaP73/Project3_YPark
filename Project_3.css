@@ -91,6 +91,9 @@ li:hover {
     max-height: 75px;
     border-radius: 15px;
 }
+.column img:hover {
+    opacity: 0.5;
+  }
 #thumbnail{
     margin-left: 60px;
 }
@@ -196,7 +199,7 @@ li:hover {
 .attribution {
     font-size: 15px;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 60px;
 }
 
 .attribution a {
