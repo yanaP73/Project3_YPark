@@ -11,6 +11,7 @@
     <title>Frontend Mentor | E-commerce product page</title>
 
     <link rel="stylesheet" href="Project_3.css">
+    
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -67,16 +68,16 @@
             <!--Thumbnails. https://www.w3schools.com/howto/howto_js_tab_img_gallery.asp-->
             <div class="row" id="thumbnail">
                 <div class="column">
-                    <img src=".\images\image-product-1-thumbnail.jpg" alt="Product image 1 thumbnail" onclick="myFunction(this);">
+                    <img src=".\images\image-product-1-thumbnail.jpg" alt="Product image 1 thumbnail">
                 </div>
                 <div class="column">
-                    <img src=".\images\image-product-2-thumbnail.jpg" alt="Product image 2 thumbnail" onclick="myFunction(this);">
+                    <img src=".\images\image-product-2-thumbnail.jpg" alt="Product image 2 thumbnail">
                 </div>
                 <div class="column">
-                    <img src=".\images\image-product-3-thumbnail.jpg" alt="Product image 3 thumbnail" onclick="myFunction(this);">
+                    <img src=".\images\image-product-3-thumbnail.jpg" alt="Product image 3 thumbnail">
                 </div>
                 <div class="column">
-                    <img src=".\images\image-product-4-thumbnail.jpg" alt="Product image 4 thumbnail" onclick="myFunction(this);">
+                    <img src=".\images\image-product-4-thumbnail.jpg" alt="Product image 4 thumbnail">
                 </div>
             </div>
         </div>
@@ -98,7 +99,8 @@
                 <div class="addCartbtns">
                     <div class="wrapper">
 
-                        <button title="Minus" class="btn btn--minus" @click="changeCounter('-1')" type="button" name="button">
+                        <button title="Minus" class="btn btn--minus" @click="changeCounter('-1')" type="button"
+                            name="button">
                             <img src=".\images\icon-minus.svg" alt="" />
                         </button>
                         <input class="quantity" type="text" name="name" value="0" placeholder="0">
@@ -109,7 +111,8 @@
 
                     <div class="add">
                         <button class="add-to-cart" type="button" name="button"><span id="span_cart"><img id=btn_cart
-                                    src=".\images\icon-cart_lightcolor.svg" alt="Cart icon"></span><span>Add to cart</span>
+                                    src=".\images\icon-cart_lightcolor.svg" alt="Cart icon"></span><span>Add to
+                                cart</span>
                         </button>
                     </div>
                 </div>
@@ -123,11 +126,13 @@
 
         <div class="col-sm-12">
             <div class="attribution">
-                Challenge by <link a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+                Challenge by
+                <link a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
                 Coded by <a href="#">Yana Park</a>
             </div>
         </div>
     </div>
+    <script src="Project_3.js"></script>
 </body>
 
 </html>

@@ -54,10 +54,10 @@ li a:link {
     text-decoration: none;
 }
 
-li:hover {
-    background-color: transparent;
+li a:hover {
+    background-color: none;
 }
-
+/*Didn't figure out*/
 #cart {
     padding-top: 14px;
     padding-bottom: 10px;
@@ -69,7 +69,15 @@ li:hover {
 #avatar {
     height: 50px;
     width: 50px;
-    padding: 0px
+    padding: 0px;
+    border-radius: 50px;
+    border: 3px solid none;
+}
+#avatar:hover{
+    border-radius: 50px;
+    border: 3px solid ;
+    border-color: darkorange;
+    /*Still didn't figure out*/
 }
 #product1{
     max-width: 75%;
@@ -90,14 +98,20 @@ li:hover {
     max-width: 75px;
     max-height: 75px;
     border-radius: 15px;
+    border: 3px solid none;
+    
 }
 /*https://www.w3schools.com/howto/howto_js_tab_img_gallery.asp (hover effect)*/
 .column img:hover {
     opacity: 0.5;
+    border: 3px solid ;
+    border-color: hsl(26, 100%, 55%);
+    
   }
   
 #thumbnail{
     margin-left: 60px;
+    
 }
 
 .text{
