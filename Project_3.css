@@ -96,8 +96,6 @@ a.nav-link:hover{
     padding-right: 17px;
 }
     #product1{
-        display: flex;
-        flex: auto;
         max-width: 75%;
         max-height: 75%;
         border-radius: 15px;
@@ -107,20 +105,18 @@ a.nav-link:hover{
     }
     .column {
        
-        width: 100px;
-        height: 100px;
+        max-width: 100%;
+        max-height: 100%;
         padding-top: 25px;
         padding-left: 10px;
         padding-right: 10px;
-        display:flex;
-        flex:50%;
-        justify-content: center;
         
         
       }
     .column img{
-        width: 80px;
-        height: 80px;
+       
+        max-width: 100%;
+        max-height: 100%;
         border-radius: 15px;
         border: 3px solid none;
         
@@ -137,7 +133,8 @@ a.nav-link:hover{
       
     #thumbnail{
         display:flex;
-        width: 405px;
+        flex:50%;
+        width: 77%;
         margin-left: 70px;
         margin-right: 70px;
         justify-items: center;
