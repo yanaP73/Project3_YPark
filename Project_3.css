@@ -96,6 +96,8 @@ a.nav-link:hover{
     padding-right: 17px;
 }
     #product1{
+        display: flex;
+        flex: auto;
         max-width: 75%;
         max-height: 75%;
         border-radius: 15px;
@@ -104,18 +106,26 @@ a.nav-link:hover{
         margin-right: 70px;        
     }
     .column {
-        float: left;
-        max-width: 100px;
-        max-height: 100px;
-        padding-right: 25px;
+       
+        width: 100px;
+        height: 100px;
         padding-top: 25px;
+        padding-left: 10px;
+        padding-right: 10px;
+        display:flex;
+        flex:50%;
+        justify-content: center;
+        
+        
       }
     .column img{
-        max-width: 75px;
-        max-height: 75px;
+        width: 80px;
+        height: 80px;
         border-radius: 15px;
         border: 3px solid none;
         
+        
+                
     }
     /*https://www.w3schools.com/howto/howto_js_tab_img_gallery.asp (hover effect)*/
     .column img:hover {
@@ -126,7 +136,12 @@ a.nav-link:hover{
       }
       
     #thumbnail{
-        margin-left: 60px;
+        display:flex;
+        width: 405px;
+        margin-left: 70px;
+        margin-right: 70px;
+        justify-items: center;
+        
         
     }
     
