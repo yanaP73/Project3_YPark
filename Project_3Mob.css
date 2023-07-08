@@ -1,0 +1,275 @@
+/*@media only screen and (max-width: 375px) {
+    #product1{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 15px;
+    margin-top: 70px;
+           
+}
+}
+
+@media only screen and (min-width: 376px) and (max-width: 800px) { 
+   #product1{
+    width: 100%;
+   }
+}*/
+
+/*@media only screen and (min-width: 801px) 
+{ 
+    body {
+         background-color: lightskyblue; 
+        } 
+    }*/
+
+
+ /* variables https://www.w3schools.com/css/css3_variables.asp*/
+    :root{
+        --Very_dark_blue: hsl(220, 13%, 13%);
+        --dark_grayish_blue: hsl(219, 9%, 45%);
+        --grayish_blue: hsl(220, 14%, 75%);
+        --light_grayish_blue: hsl(223, 64%, 98%);
+        --white: hsl(0, 0%, 100%);
+        --black: hsl(0, 0%, 0%);
+        --orange: hsl(26, 100%, 55%);
+        --pale_orange: hsl(25, 100%, 94%);
+            /*with 75% opacity for lightbox background): */
+    }
+    
+
+    
+    #header {
+        display: block;
+        border-bottom: 2px solid var(--light_grayish_blue);
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 30px;
+        max-width: 1440px;
+    }
+    .col-sm-2{
+        width: 150px;
+        padding-left: 0px !important;
+
+}
+.hamb{
+    
+        width: 25px;
+        height: 4px;
+        background-color: var(--dark_grayish_blue);
+        margin: 5px ;
+      }
+#hamb{
+    float: left;
+    width: 30px;
+    
+}
+
+    img#logo{
+        display: block;
+        padding-top: 15px;
+        padding-right: 12px;
+    
+       
+    }
+    .col-sm-9{
+        width: 750px ;
+        padding: 0px !important;
+    }
+    .col-sm-1{
+width: 140px;
+    }
+   li a{
+    float: left;
+    height: 80px;
+    }
+    li a {
+        color: #111;
+        background-color: white !important;
+    }
+
+    a.nav-link{
+        display: block;
+        padding-top: 15px !important;
+        padding-right: 15px;
+        padding-bottom: 0px !important;
+        border-bottom: 4px solid white;
+         }
+
+a.nav-link:hover{
+        display: block;
+        border-bottom: 4px solid var(--orange);
+    }
+
+    #nav-link-coll{
+    padding-left: 0px !important;
+    }
+
+    #cartAvatar
+    {
+        float: left;
+    }
+    
+   #avatar {
+    height: 50px;
+    width: 50px;
+    padding: 0px;
+    border-radius: 50px;
+    border: 3px solid none;
+}
+#cart {
+    padding-right: 17px;
+}
+    #product1{
+        max-width: 75%;
+        max-height: 75%;
+        border-radius: 15px;
+        margin-top: 70px;
+        margin-left: 70px;
+        margin-right: 70px;        
+    }
+    .column {
+       
+        max-width: 100%;
+        max-height: 100%;
+        padding-top: 25px;
+        padding-left: 10px;
+        padding-right: 10px;
+        
+        
+      }
+    .column img{
+       
+        max-width: 100%;
+        max-height: 100%;
+        border-radius: 15px;
+        border: 3px solid none;
+        
+        
+                
+    }
+    /*https://www.w3schools.com/howto/howto_js_tab_img_gallery.asp (hover effect)*/
+    .column img:hover {
+        opacity: 0.5;
+        border: 3px solid ;
+        border-color: var(--orange);
+        
+      }
+      
+    #thumbnail{
+        display:flex;
+        flex:50%;
+        width: 77%;
+        margin-left: 70px;
+        margin-right: 70px;
+        justify-items: center;
+        
+        
+    }
+    
+    .text{
+        margin-top: 130px;
+        width:420px;
+        padding-left: 10px;
+    }
+    #snCompany{
+        text-transform: uppercase;
+        color: var(--orange);
+        letter-spacing:1px;
+        font-family: 'Kumbh Sans', sans-serif;
+        font-size: 12px;
+    }
+    #productName{
+        font-family: 'Kumbh Sans', sans-serif;
+        font-size: 35px;
+        margin-bottom: 30px;
+    }
+    
+    #description{
+        font-family: sans-serif;
+        font-size: 16px;    
+        color: var(--dark_grayish_blue);
+    }
+    
+    #newPrice {
+        font-family: 'Kumbh Sans', sans-serif;
+        height: 50px;
+        line-height: 50px;
+    }
+    #discountPrice{
+        font-weight: 700;
+        font-size: 20px;
+        vertical-align: middle;
+    }
+    #halfPrice{
+        font-size: 11px; 
+        font-weight: 700;
+        color: var(--orange);
+        background-color: var(--pale_orange)
+        margin-left: 10px;
+        padding:2px;
+        }
+    #oldPrice{
+        text-decoration:line-through;
+        color: var(--light_grayish_blue);
+        font-size: 12px;
+        font-weight: bold;
+    }
+    
+    .addCartbtns  {
+        margin-top: 30px;
+        vertical-align: center;
+        /*Still couldn't figure out*/
+    }
+    .quantity{
+        width: 34px;
+        border: none;
+        text-align: center;
+        background-color:var(--light_grayish_blue);
+    }
+    .wrapper{
+        width: 120px;
+        margin-right: 10px;
+        border: none;
+        background-color:var(--light_grayish_blue);
+        float: left;    
+    }
+    
+    .btn--minus{
+        background-color:var(--light_grayish_blue);
+    }
+    
+    .btn--plus{
+        background-color: var(--light_grayish_blue);
+    }
+    .add{
+        float: left;
+    }
+    
+    #btn_cart{
+        height: 15px;
+        width: 15px;
+    }
+    #span_cart{
+        padding-right: 15px;
+    }
+    
+    .add-to-cart{
+        color: hsl(25, 100%, 94%);
+        font-weight: bold;
+        border: none;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left:70px;
+        padding-right: 70px;
+        background-color: var(--orange);
+        border-radius: 8px;
+       }
+    
+    .attribution {
+        font-size: 15px;
+        text-align: center;
+        padding-top: 60px;
+    }
+    
+    .attribution a {
+        color: hsl(228, 45%, 44%);
+    }

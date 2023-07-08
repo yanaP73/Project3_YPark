@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <title>Frontend Mentor | E-commerce product page</title>
+
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="Project_3Mob.css">
+</head>
+
+<body>
+    <div class="container" id="body">
+
+        <!--Header-->
+        <div class="row" id="header">
+
+            <div class="col-sm-3" id="col-sm-2-logo" href="#">
+                <!--Hamburger Icon-->
+                <div id="hamb">
+                    <div class="hamb"></div>
+                    <div class="hamb"></div>
+                    <div class="hamb"></div>
+                </div>
+               <!--Logo-->
+                
+                    <img id="logo" src=".\images\logo.svg" alt="Logo">
+                
+            </div>
+
+            <div class="col-sm-8">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link" id="nav-link-coll" href="#">Collections</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Men</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Women</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-sm-1">
+                <div id="cartAvatar">
+                    <img id="cart" src=".\images\icon-cart.svg" alt="Cart">
+                    <img id="avatar" src=".\images\image-avatar.png" alt="Avatar">
+                </div>
+            </div>
+        </div>
+
+        <!--Body-->
+        <!--Main picture of product-->
+        <div class="col-sm-6" href="#">
+            <div>
+                <img id="product1" src=".\images\image-product-1.jpg" alt="Product 1 image">
+            </div>
+
+            <!--Thumbnails. https://www.w3schools.com/howto/howto_js_tab_img_gallery.asp-->
+            <div class="row" id="thumbnail">
+                <div class="column">
+                    <img src=".\images\image-product-1-thumbnail.jpg" alt="Product image 1 thumbnail">
+                </div>
+                <div class="column">
+                    <img src=".\images\image-product-2-thumbnail.jpg" alt="Product image 2 thumbnail">
+                </div>
+                <div class="column">
+                    <img src=".\images\image-product-3-thumbnail.jpg" alt="Product image 3 thumbnail">
+                </div>
+                <div class="column">
+                    <img src=".\images\image-product-4-thumbnail.jpg" alt="Product image 4 thumbnail">
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="text">
+
+                <h5 id="snCompany">Sneaker Company</h5>
+
+                <h2 id="productName">Fall Limited Edition <br> Sneakers</h2>
+
+                <p id="description">These low-profile sneakers are your perfect casual wear companion. Featuring a
+                    durable
+                    rubber outer sole, they'll withstand everything the weather can offer.
+                </p>
+                <!--Formatted the text. Source used: https://css-tricks.com/forums/topic/howto-middle-align-small-text-next-to-large-text/-->
+                <div id="newPrice"><span id="discountPrice">$125.00 </span><span id="halfPrice"> 50%</span>
+                </div>
+                <p id="oldPrice">$250.00</p>
+                <div class="addCartbtns">
+                    <div class="wrapper">
+
+                        <button title="Minus" class="btn btn--minus" @click="changeCounter('-1')" type="button"
+                            name="button">
+                            <img src=".\images\icon-minus.svg" alt="" />
+                        </button>
+                        <input class="quantity" type="text" name="name" value="0" placeholder="0">
+                        <button class="btn btn--plus" @click="changeCounter('1')" type="button" name="button">
+                            <img src=".\images\icon-plus.svg" alt="Icon plus" />
+                        </button>
+                    </div>
+
+                    <div class="add">
+                        <button class="add-to-cart" type="button" name="button"><span id="span_cart"><img id=btn_cart
+                                    src=".\images\icon-cart_lightcolor.svg" alt="Cart icon"></span><span>Add to
+                                cart</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!--Footer-->
+    <div class="row">
+
+        <div class="col-sm-12">
+            <div class="attribution">
+                Challenge by
+                <link a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+                Coded by <a href="#">Yana Park</a>
+            </div>
+        </div>
+    </div>
+    <script src="Project_3.js"></script>
+</body>
+
+</html>
