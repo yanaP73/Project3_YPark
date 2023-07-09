@@ -9,10 +9,6 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
     <title>Frontend Mentor | E-commerce product page</title>
-
-
-
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@700&display=swap" rel="stylesheet">
@@ -30,37 +26,28 @@
         <!--Header-->
         <div class="row" id="header">
 
-            <div class="col-sm-3" id="col-sm-2-logo" href="#">
+            <div class="col-sm-3" id="col-sm-3-logo" href="#">
+
                 <!--Hamburger Icon-->
-                <div id="hamb">
-                    <div class="hamb"></div>
-                    <div class="hamb"></div>
-                    <div class="hamb"></div>
+                <div>
+                    <span id="hamb" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
                 </div>
-               <!--Logo-->
-                
+                <!--Logo-->
+                <div class="logo">
                     <img id="logo" src=".\images\logo.svg" alt="Logo">
-                
+                </div>
             </div>
 
-            <div class="col-sm-8">
-                <ul class="nav">
-                    <li class="nav-item">
-                        <a class="nav-link" id="nav-link-coll" href="#">Collections</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Men</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Women</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                </ul>
+            <div class="col-sm-8" id="sidenav">
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="#">Collections</a>
+                    <a href="#">Men</a>
+                    <a href="#">Women</a>
+                    <a href="#">About</a>
+                    <a href="#">Contact</a>
+                </div>
+
             </div>
 
             <div class="col-sm-1">
@@ -145,7 +132,7 @@
             </div>
         </div>
     </div>
-    <script src="Project_3.js"></script>
+    <script src="Project_3Mob.js"></script>
 </body>
 
 </html>
