@@ -22,7 +22,11 @@
 
 /* variables https://www.w3schools.com/css/css3_variables.asp*/
 body {
+    margin: 0px;
     font-family: 'Kumbh Sans', sans-serif;
+    width: 375px;
+    
+    
 }
 
 :root {
@@ -34,7 +38,7 @@ body {
     --black: hsl(0, 0%, 0%);
     --orange: hsl(26, 100%, 55%);
     --pale_orange: hsl(25, 100%, 94%);
-    /*with 75% opacity for lightbox background): */
+   /* (with 75% opacity for lightbox background)*/
 }
 
 .container {
@@ -176,13 +180,15 @@ a.nav-link:hover {
     padding-right: 17px;
 }
 
-#product1 {
-    max-width: 75%;
-    max-height: 75%;
-    border-radius: 15px;
-    margin-top: 70px;
-    margin-left: 70px;
-    margin-right: 70px;
+#productImg{
+    padding: 0px !important;
+}
+img#product1 {
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    padding-left: 0px;
+   
 }
 
 .column {
