@@ -187,6 +187,36 @@ div.slides{
 .slides {
     display: none;
   }
+
+  #slidesBtns{
+    margin-top: -180px;
+    margin-bottom: 80px;/*to edit later*/
+  }
+  .next{
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 10px 13px;
+    background-color: white;
+   
+    transition: 0.6s ease;
+  }
+  .prev  {
+    cursor: pointer;
+    position:relative;
+   margin-right:265px;
+   margin-left: 15px;
+
+   
+    
+    border-radius: 50%;
+    padding: 10px 13px;
+    background-color: white;
+   
+    transition: 0.6s ease;
+    
+   
+  }
+  
 /* Desktop
 #product1{
         max-width: 75%;
@@ -238,9 +268,9 @@ https://www.w3schools.com/howto/howto_js_tab_img_gallery.asp (hover effect)*/
 }*/
 
 .text {
-    margin-top: 130px;
-    width: 420px;
-    padding-left: 10px;
+    margin-top: 80px;
+    width: 100%;
+    
 }
 
 #snCompany {
@@ -249,12 +279,13 @@ https://www.w3schools.com/howto/howto_js_tab_img_gallery.asp (hover effect)*/
     letter-spacing: 1px;
     font-family: 'Kumbh Sans', sans-serif;
     font-size: 12px;
+    margin: 0px;
 }
 
 #productName {
     font-family: 'Kumbh Sans', sans-serif;
-    font-size: 35px;
-    margin-bottom: 30px;
+    font-size: 27px;
+    margin-bottom: 25px;
 }
 
 #description {
@@ -263,32 +294,44 @@ https://www.w3schools.com/howto/howto_js_tab_img_gallery.asp (hover effect)*/
     color: var(--dark_grayish_blue);
 }
 
-#newPrice {
+.newPrice {
     font-family: 'Kumbh Sans', sans-serif;
+    width:70%;
     height: 50px;
     line-height: 50px;
+    float: left;
 }
 
-#discountPrice {
+#newPrice {
     font-weight: 700;
-    font-size: 20px;
+    font-size: 25px;
     vertical-align: middle;
+    
+    
 }
 
-#halfPrice {
-    font-size: 11px;
+#halfPricePercentage {
+    font-size: 13px;
     font-weight: 700;
     color: var(--orange);
-    background-color: var(--pale_orange) margin-left: 10px;
+    background-color: var(--pale_orange); margin-left: 10px;
     padding: 2px;
+    
 }
 
-#oldPrice {
+div#oldPrice {
+    width: 30%;
+    height: 50px;
+    line-height: 50px;
+    
+    float: left;
     text-decoration: line-through;
-    color: var(--light_grayish_blue);
-    font-size: 12px;
+    color: var(--grayish_blue);
+    font-size: 13px;
     font-weight: bold;
-}
+   vertical-align: middle;
+   text-align: right;
+   }
 
 .addCartbtns {
     margin-top: 30px;
@@ -309,6 +352,7 @@ https://www.w3schools.com/howto/howto_js_tab_img_gallery.asp (hover effect)*/
     border: none;
     background-color: var(--light_grayish_blue);
     float: left;
+    overflow-x: hidden;
 }
 
 .btn--minus {

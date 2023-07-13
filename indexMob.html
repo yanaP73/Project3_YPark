@@ -30,7 +30,7 @@
 
                 <!--Hamburger Icon-->
                 <div>
-                    <span id="hamb" onclick="openNav()">&#9776;</span>
+                    <span id="hamb" onclick="openNav()"><img src=".\images\icon-menu.svg" alt="icon menu"></span>
                 </div>
                 <!--Logo-->
                 <div class="logo">
@@ -40,7 +40,7 @@
 
             <div class="col-sm-8" id="sidenav">
                 <div id="mySidenav" class="sidenav">
-                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src=".\images\icon-close.svg" alt="icon close"></a>
                     <a href="#">Collections</a>
                     <a href="#">Men</a>
                     <a href="#">Women</a>
@@ -87,8 +87,10 @@
                 </div>
 
                 <!--Next and previous buttons-->
+                <div id="slidesBtns">
                 <a class="prev" onclick="plusSlides(-1)"><img src=".\images\icon-previous.svg" alt="Previous"></a>
                 <a class="next" onclick="plusSlides(1)"><img src=".\images\icon-next.svg" alt="Next"></a>
+            </div>
             </div>
             <br>
         </div>
@@ -106,9 +108,12 @@
                 rubber outer sole, they'll withstand everything the weather can offer.
             </p>
             <!--Formatted the text. Source used: https://css-tricks.com/forums/topic/howto-middle-align-small-text-next-to-large-text/-->
-            <div id="newPrice"><span id="discountPrice">$125.00 </span><span id="halfPrice"> 50%</span>
+            <div class="newPrice"><span id="newPrice">$125.00 </span><span id="halfPricePercentage"> 50%</span>
             </div>
-            <p id="oldPrice">$250.00</p>
+            <div id="oldPrice">
+                <span >$250.00</span>
+            </div>
+            
             <div class="addCartbtns">
                 <div class="wrapper">
 
