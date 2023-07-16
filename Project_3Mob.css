@@ -320,36 +320,40 @@ https://www.w3schools.com/howto/howto_js_tab_img_gallery.asp (hover effect)*/
 }
 
 div#oldPrice {
-    width: 30%;
+    width: 25%;
     height: 50px;
     line-height: 50px;
-    
     float: left;
     text-decoration: line-through;
     color: var(--grayish_blue);
     font-size: 13px;
     font-weight: bold;
-   vertical-align: middle;
-   text-align: right;
+    vertical-align: middle;
+    text-align: right;
    }
 
 .addCartbtns {
     margin-top: 30px;
-    vertical-align: center;
+    width: 375px;
+    height: 20px;
     /*Still couldn't figure out*/
 }
 
 .quantity {
-    width: 34px;
+    width: 70%;
     border: none;
-    text-align: center;
+    text-align:center;
+    vertical-align: middle;
+    padding-top: 10px;
     background-color: var(--light_grayish_blue);
 }
 
 .wrapper {
-    width: 120px;
+    width: 90%;
+    height: 45px;
     margin-right: 10px;
     border: none;
+    border-radius: 10px;
     background-color: var(--light_grayish_blue);
     float: left;
     overflow-x: hidden;
@@ -357,10 +361,14 @@ div#oldPrice {
 
 .btn--minus {
     background-color: var(--light_grayish_blue);
+    vertical-align: middle;
+    padding-top: 10px;
 }
 
 .btn--plus {
     background-color: var(--light_grayish_blue);
+    vertical-align: middle;
+    padding-top: 10px;
 }
 
 .add {
