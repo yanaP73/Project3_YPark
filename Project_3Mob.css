@@ -352,6 +352,7 @@ div#oldPrice {
     width: 90%;
     height: 45px;
     margin-right: 10px;
+    margin-bottom: 15px;
     border: none;
     border-radius: 10px;
     background-color: var(--light_grayish_blue);
@@ -363,12 +364,14 @@ div#oldPrice {
     background-color: var(--light_grayish_blue);
     vertical-align: middle;
     padding-top: 10px;
+    padding-left: 20px;
 }
 
 .btn--plus {
     background-color: var(--light_grayish_blue);
     vertical-align: middle;
     padding-top: 10px;
+    padding-right: 20px;
 }
 
 .add {
@@ -385,6 +388,7 @@ div#oldPrice {
 }
 
 .add-to-cart {
+    width: 340px;
     color: hsl(25, 100%, 94%);
     font-weight: bold;
     border: none;
@@ -394,6 +398,7 @@ div#oldPrice {
     padding-right: 70px;
     background-color: var(--orange);
     border-radius: 8px;
+    margin-bottom: 100px;
 }
 
 .attribution {
