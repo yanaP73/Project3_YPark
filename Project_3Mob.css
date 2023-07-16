@@ -164,21 +164,22 @@ a.nav-link:hover {
 }
 
 /*Cart and Avatar*/
+#cart {
+    padding-right: 10px;
+}
 #cartAvatar {
     float: right;
 }
 
 #avatar {
-    height: 35px;
-    width: 35px;
-    padding: 0px;
+    height: 25px;
+    width: 25px;
+    margin-right: 10px;
     border-radius: 50px;
     border: 3px solid none;
 }
 
-#cart {
-    padding-right: 17px;
-}
+
 div.slides{
     width: 375px;
     height: 375px;
