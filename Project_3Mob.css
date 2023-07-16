@@ -389,15 +389,17 @@ div#oldPrice {
 
 .add-to-cart {
     width: 340px;
+    height: 45px;
     color: hsl(25, 100%, 94%);
     font-weight: bold;
     border: none;
+    border-radius: 8px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 70px;
     padding-right: 70px;
     background-color: var(--orange);
-    border-radius: 8px;
+   
     margin-bottom: 100px;
 }
 
