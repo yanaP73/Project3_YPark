@@ -25,8 +25,8 @@ body {
     margin: 0px;
     font-family: 'Kumbh Sans', sans-serif;
     width: 375px;
-    
-    
+
+
 }
 
 :root {
@@ -38,7 +38,7 @@ body {
     --black: hsl(0, 0%, 0%);
     --orange: hsl(26, 100%, 55%);
     --pale_orange: hsl(25, 100%, 94%);
-   /* (with 75% opacity for lightbox background)*/
+    /* (with 75% opacity for lightbox background)*/
 }
 
 .container {
@@ -167,6 +167,7 @@ a.nav-link:hover {
 #cart {
     padding-right: 10px;
 }
+
 #cartAvatar {
     float: right;
 }
@@ -180,44 +181,47 @@ a.nav-link:hover {
 }
 
 
-div.slides{
+div.slides {
     width: 375px;
     height: 375px;
 }
 
 .slides {
     display: none;
-  }
+}
 
-  #slidesBtns{
+#slidesBtns {
     margin-top: -180px;
-    margin-bottom: 80px;/*to edit later*/
-  }
-  .next{
-    cursor: pointer;
-    border-radius: 50%;
-    padding: 10px 13px;
-    background-color: white;
-   
-    transition: 0.6s ease;
-  }
-  .prev  {
-    cursor: pointer;
-    position:relative;
-   margin-right:265px;
-   margin-left: 15px;
+    margin-bottom: 80px;
+    /*to edit later*/
+}
 
-   
-    
+.next {
+    cursor: pointer;
     border-radius: 50%;
     padding: 10px 13px;
     background-color: white;
-   
+
     transition: 0.6s ease;
-    
-   
-  }
-  
+}
+
+.prev {
+    cursor: pointer;
+    position: relative;
+    margin-right: 265px;
+    margin-left: 15px;
+
+
+
+    border-radius: 50%;
+    padding: 10px 13px;
+    background-color: white;
+
+    transition: 0.6s ease;
+
+
+}
+
 /* Desktop
 #product1{
         max-width: 75%;
@@ -228,9 +232,9 @@ div.slides{
         margin-right: 70px;        
     }*/
 
-img.column{
+img.column {
     width: 100%;
-    height:100%;
+    height: 100%;
 }
 
 img.column {
@@ -271,7 +275,7 @@ https://www.w3schools.com/howto/howto_js_tab_img_gallery.asp (hover effect)*/
 .text {
     margin-top: 80px;
     width: 100%;
-    
+
 }
 
 #snCompany {
@@ -297,7 +301,7 @@ https://www.w3schools.com/howto/howto_js_tab_img_gallery.asp (hover effect)*/
 
 .newPrice {
     font-family: 'Kumbh Sans', sans-serif;
-    width:70%;
+    width: 70%;
     height: 50px;
     line-height: 50px;
     float: left;
@@ -307,17 +311,18 @@ https://www.w3schools.com/howto/howto_js_tab_img_gallery.asp (hover effect)*/
     font-weight: 700;
     font-size: 25px;
     vertical-align: middle;
-    
-    
+
+
 }
 
 #halfPricePercentage {
     font-size: 13px;
     font-weight: 700;
     color: var(--orange);
-    background-color: var(--pale_orange); margin-left: 10px;
+    background-color: var(--pale_orange);
+    margin-left: 10px;
     padding: 2px;
-    
+
 }
 
 div#oldPrice {
@@ -331,7 +336,7 @@ div#oldPrice {
     font-weight: bold;
     vertical-align: middle;
     text-align: right;
-   }
+}
 
 .addCartbtns {
     margin-top: 30px;
@@ -343,7 +348,7 @@ div#oldPrice {
 .quantity {
     width: 70%;
     border: none;
-    text-align:center;
+    text-align: center;
     vertical-align: middle;
     padding-top: 10px;
     background-color: var(--light_grayish_blue);
@@ -400,8 +405,8 @@ div#oldPrice {
     padding-left: 70px;
     padding-right: 70px;
     background-color: var(--orange);
-   
     margin-bottom: 100px;
+    box-shadow: 0px 30px 40px var(--pale_orange);
 }
 
 .attribution {
