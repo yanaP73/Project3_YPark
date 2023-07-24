@@ -38,7 +38,8 @@
                 </div>
             </div>
 
-            <div class="col-sm-8" id="sidenav">
+            <!--Side Menu-->
+            <div class="col-sm-6" id="sidenav">
                 <div id="mySidenav" class="sidenav">
                     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img
                             src=".\images\icon-close.svg" alt="icon close"></a>
@@ -49,21 +50,39 @@
                     <a href="#">Contact</a>
                 </div>
 
+                <!--Cart Window-->
+            </div>
+            <div class="col-sm-2">
+                <div id="cartWindow" class="cartWindow">
+                    <p>Cart</p>
+                    <hr>
+                    <div class="add">
+                        <button class="add-to-cart" id="add-to-cartWindow" type="button"
+                            name="button"><span>Checkout</span>
+                        </button>
+                    </div>
+                </div>
             </div>
 
+            <!--Cart and Avatar-->
             <div class="col-sm-1">
                 <div id="cartAvatar">
-                    <img id="cart" src=".\images\icon-cart.svg" alt="Cart">
+                    <!--Cart-->
+                    <a href="javascript:void(0)" class="openCloseBtn" onclick="openCloseWindow()">
+                        <img id="cart" src=".\images\icon-cart.svg" alt="Cart"></a>
+
+                    <!--Avatar-->
                     <img id="avatar" src=".\images\image-avatar.png" alt="Avatar">
                 </div>
             </div>
         </div>
 
+
         <!--Body-->
         <!--Main picture of product-->
-        <div class="col-sm-6" href="#">
+        <!--<div class="col-sm-6" href="#">-->
 
-            <!--Thumbnails. 
+        <!--Thumbnails. 
             
                             How to create thumbnails for desktop version
                     https://www.w3schools.com/howto/howto_js_tab_img_gallery.asp
@@ -71,7 +90,7 @@
                             How to create a gallery for mobile version
                         https://www.w3schools.com/howto/howto_js_slideshow.asp-->
 
-            <div class="row" id="thumbnail">
+        <!-- <div class="row" id="thumbnail">
                 <div class="slides">
                     <img class="column" src=".\images\image-product-1.jpg" alt="Product image 1">
                 </div>
@@ -83,10 +102,10 @@
                 </div>
                 <div class="slides">
                     <img class="column" src=".\images\image-product-4.jpg" alt="Product image 4">
-                </div>
+                </div>-->
 
-                <!--Next and previous buttons-->
-                <div id="slidesBtns">
+        <!--Next and previous buttons-->
+        <!-- <div id="slidesBtns">
                     <a class="prev" onclick="plusSlides(-1)"><img src=".\images\icon-previous.svg" alt="Previous"></a>
                     <a class="next" onclick="plusSlides(1)"><img src=".\images\icon-next.svg" alt="Next"></a>
                 </div>
@@ -106,9 +125,9 @@
                 durable
                 rubber outer sole, they'll withstand everything the weather can offer.
             </p>
-        </div>
-            <!--Formatted the text. Source used: https://css-tricks.com/forums/topic/howto-middle-align-small-text-next-to-large-text/-->
-            <div class="newPrice"><span id="newPrice">$125.00 </span><span id="halfPricePercentage"> 50%</span>
+        </div>-->
+        <!--Formatted the text. Source used: https://css-tricks.com/forums/topic/howto-middle-align-small-text-next-to-large-text/-->
+        <!-- <div class="newPrice"><span id="newPrice">$125.00 </span><span id="halfPricePercentage"> 50%</span>
             </div>
             <div id="oldPrice">
                 <span>$250.00</span>
@@ -136,12 +155,12 @@
                 </button>
             </div>
         
-    </div>
+    </div>-->
 
-   
 
-    <!--Footer-->
-    <div class="row">
+
+        <!--Footer-->
+        <!--<div class="row">
 
         <div class="col-sm-12">
             <div class="attribution">
@@ -151,8 +170,8 @@
             </div>
         </div>
     </div>
-</div>
-    <script src="Project_3Mob.js"></script>
+</div>-->
+        <script src="Project_3Mob.js"></script>
 </body>
 
 </html>
