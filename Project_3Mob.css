@@ -1,144 +1,160 @@
+/*
+@media only screen and (min-width: 376px) and (max-width: 800px) { 
+   #product1{
+    width: 100%;
+   }
+}*/
+
+/*@media only screen and (min-width: 801px) 
+{ 
+    body {
+         background-color: lightskyblue; 
+        } 
+    }*/
+
+/* Reset */
+
 @media only screen and (max-width: 376px) {
 
-/* variables https://www.w3schools.com/css/css3_variables.asp*/
-body {
-    margin: 0px;
-    font-family: 'Kumbh Sans', sans-serif;
-    width: 100%;
-}
-
-:root {
-    --Very_dark_blue: hsl(220, 13%, 13%);
-    --dark_grayish_blue: hsl(219, 9%, 45%);
-    --grayish_blue: hsl(220, 14%, 75%);
-    --light_grayish_blue: hsl(223, 64%, 98%);
-    --white: hsl(0, 0%, 100%);
-    --black: hsl(0, 0%, 0%);
-    --orange: hsl(26, 100%, 55%);
-    --pale_orange: hsl(25, 100%, 94%);
-    /* (with 75% opacity for lightbox background)*/
-}
-
-.container {
-    width: 100%;
-    margin: 0px;
-    padding-left: 0px;
-    padding-right: 0px;
-}
-
-#header {
-    display: block;
-    margin-left: 5px;
-    margin-top: 30px;
-    max-width: 375px;
-}
-
-
-/*Menu*/
-#hamb {
-    float: left;
-    font-size: 20px;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-.sidenav {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: white;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
-}
-
-.sidenav a {
-    padding: 10px 10px 10px 32px;
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: bold;
-    color: black;
-    display: block;
-    transition: 0.3s;
-}
-
-.sidenav a:hover {
-    color: var(--dark_grayish_blue);
-}
-
-.sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    font-size: 36px;
-    margin-left: 0px;
-    color: var(--dark_grayish_blue)
-}
-
-div.sidenav {
-    padding-top: 80px;
-}
-
-/*Logo*/
-.logo {
-    float: left;
-    margin-top: 5px;
-    margin-left: 15px;
-}
-
-img#logo {
-    display: block;
-    margin-right: 0px;
-}
-
-li a {
-    float: left;
-    height: 80px;
-}
-
-li a {
-    color: #111;
-    background-color: white !important;
-}
-
-a.nav-link {
-    display: block;
-    padding-top: 15px !important;
-    padding-right: 15px;
-    padding-bottom: 0px !important;
-    border-bottom: 4px solid white;
-}
-
-a.nav-link:hover {
-    display: block;
-    border-bottom: 4px solid var(--orange);
-}
-
-#nav-link-coll {
-    padding-left: 0px !important;
-}
-
-
-/*Cart Window*/
-.cartWindow {
-    display: none;
-    height: 60%;
-    width: 93%;
-    margin-top: 50px;
-    position: fixed;
-    z-index: 1;    
-    background-color: white;
-    overflow: auto;
-    transition: 1s;
-    border: 3px solid black;
-    border-radius: 10px;
-    align-self: center;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    /* variables https://www.w3schools.com/css/css3_variables.asp*/
+    body {
+        margin: 0px;
+        font-family: 'Kumbh Sans', sans-serif;
+        width: 100%;
     }
-
-.cartWindow p {
+    
+    :root {
+        --Very_dark_blue: hsl(220, 13%, 13%);
+        --dark_grayish_blue: hsl(219, 9%, 45%);
+        --grayish_blue: hsl(220, 14%, 75%);
+        --light_grayish_blue: hsl(223, 64%, 98%);
+        --white: hsl(0, 0%, 100%);
+        --black: hsl(0, 0%, 0%);
+        --orange: hsl(26, 100%, 55%);
+        --pale_orange: hsl(25, 100%, 94%);
+        /* (with 75% opacity for lightbox background)*/
+    }
+    
+    .container {
+        width: 100%;
+        margin: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+    #header {
+        display: block;
+        margin-left: 5px;
+        margin-top: 30px;
+        max-width: 375px;
+    }
+    
+    
+    
+    /*Menu*/
+    #hamb {
+        float: left;
+        font-size: 20px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: white;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+    }
+    
+    .sidenav a {
+        padding: 10px 10px 10px 32px;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: bold;
+        color: black;
+        display: block;
+        transition: 0.3s;
+    }
+    
+    .sidenav a:hover {
+        color: var(--dark_grayish_blue);
+    }
+    
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        font-size: 36px;
+        margin-left: 0px;
+        color: var(--dark_grayish_blue)
+    }
+    
+    div.sidenav {
+        padding-top: 80px;
+    }
+    
+    /*Logo*/
+    .logo {
+        float: left;
+        margin-top: 5px;
+        margin-left: 15px;
+    }
+    
+    img#logo {
+        display: block;
+        margin-right: 0px;
+    }
+    
+    li a {
+        float: left;
+        height: 80px;
+    }
+    
+    li a {
+        color: #111;
+        background-color: white !important;
+    }
+    
+    a.nav-link {
+        display: block;
+        padding-top: 15px !important;
+        padding-right: 15px;
+        padding-bottom: 0px !important;
+        border-bottom: 4px solid white;
+    }
+    
+    a.nav-link:hover {
+        display: block;
+        border-bottom: 4px solid var(--orange);
+    }
+    
+    #nav-link-coll {
+        padding-left: 0px !important;
+    }
+    
+    
+    /*Cart Window*/
+    .cartWindow {
+        display: none;
+        height: 60%;
+        width: 90%;
+        margin-top: 50px;
+        position: fixed;
+        z-index: 1;    
+        background-color: white;
+        overflow: auto;
+        transition: 1s;
+        border: 3px solid black;
+        border-radius: 10px;
+        align-self: center;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        }
+    .cartWindow p {
         font-size: 15px;
         font-weight: bold;
         color: black;
@@ -146,269 +162,272 @@ a.nav-link:hover {
         padding-top: 15px;
        }
     
-.show {display:block;}
-
-.add {
-    width: 100%;
-}
-
-#add-to-cartWindow {
-    width: 90%;
-    height: 45px;
-    margin-bottom: 20px;
-    box-shadow: none;
-    margin: 15px;
-}
-
-/*Cart and Avatar*/
-#cart {
-    padding-right: 10px;
-}
-
-#cartAvatar {
-    float: right;
-}
-
-#avatar {
-    height: 25px;
-    width: 25px;
-    margin-right: 10px;
-    border-radius: 50px;
-    border: 3px solid none;
-}
-
-div.slides {
-    width: 375px;
-    height: 375px;
-}
-
-.slides {
-    display: none;
-}
-
-#slidesBtns {
-    margin-top: -180px;
-    margin-bottom: 80px;
-    /*to edit later*/
-}
-
-.next {
-    cursor: pointer;
-    border-radius: 50%;
-    padding: 10px 13px;
-    background-color: white;
-
-    transition: 0.6s ease;
-}
-
-.prev {
-    cursor: pointer;
-    position: relative;
-    margin-right: 265px;
-    margin-left: 15px;
-    border-radius: 50%;
-    padding: 10px 13px;
-    background-color: white;
-    transition: 0.6s ease;
-
-
-}
-/*
-Desktop
-#product1{
-        max-width: 75%;
-        max-height: 75%;
-        border-radius: 15px;
-        margin-top: 70px;
-        margin-left: 70px;
-        margin-right: 70px;        
+    .show {display:block;}
+    
+    .add {
+        width: 100%;
+       
+    }
+    
+    #add-to-cartWindow {
+        width: 90%;
+        height: 45px;
+        margin-bottom: 20px;
+        box-shadow: none;
+        margin: 15px;
+    }
+    
+    /*Cart and Avatar*/
+    #cart {
+        padding-right: 10px;
+    }
+    
+    #cartAvatar {
+        float: right;
+    }
+    
+    #avatar {
+        height: 25px;
+        width: 25px;
+        margin-right: 10px;
+        border-radius: 50px;
+        border: 3px solid none;
+    }
+    
+    
+    
+    div.slides {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        margin: auto;
+    }
+    
+    .slides {
+        display:none;
+    }
+    
+    #slidesBtns {
+        margin-top: -50%;
+        margin-bottom: 80px;
+        /*to edit later*/
+    }
+    
+    .prev, .next {
+        cursor: pointer;
+        border-radius: 50%;
+        padding: 10px 14px;
+        background-color: white;
+        position: absolute;
+        transition: 0.6s ease;
+        
+        
+    }
+    
+    .next{
+        right: 0;
+        margin-right: 15px;
+     }
+        
+    .prev{   
+        margin-left: 15px;
+    }
+    
+    /* Desktop
+    #product1{
+            max-width: 75%;
+            max-height: 75%;
+            border-radius: 15px;
+            margin-top: 70px;
+            margin-left: 70px;
+            margin-right: 70px;        
+        }*/
+    
+    img.column {
+        width: 100%;
+        height: 100%;
+    }
+    
+    img.column {
+    
+        max-width: 100%;
+        max-height: 100%;
+        padding-top: 20px;
+        /*
+        desktop
+        padding-top: 25px;
+        padding-left: 10px;
+        padding-right: 10px;*/
+    
+    
+    }
+    
+    
+    
+    /*Desktop
+    https://www.w3schools.com/howto/howto_js_tab_img_gallery.asp (hover effect)*/
+    
+    /*.column img:hover {
+        opacity: 0.5;
+        border: 3px solid;
+        border-color: var(--orange);
+    
     }*/
-
-img.column {
-    width: 100%;
-    /* height: 100%; */
-}
-
-img.column {
-
-    max-width: 100%;
-    max-height: 100%;
-    padding-top: 20px;
-    /*
-    desktop
-    padding-top: 25px;
-    padding-left: 10px;
-    padding-right: 10px;*/
-
-
-}
-
-
-
-/*Desktop
-https://www.w3schools.com/howto/howto_js_tab_img_gallery.asp (hover effect)*/
-
-/*.column img:hover {
-    opacity: 0.5;
-    border: 3px solid;
-    border-color: var(--orange);
-
-}*/
-
-/*#thumbnail {
-    display: flex;
-    flex: 50%;
-    width: 77%;
-    margin-left: 70px;
-    margin-right: 70px;
-    justify-items: center;
-}*/
-
-.text {
-    margin-top: 80px;
-    width: 100%;
-
-}
-
-#snCompany {
-    text-transform: uppercase;
-    color: var(--orange);
-    letter-spacing: 1px;
-    font-family: 'Kumbh Sans', sans-serif;
-    font-size: 12px;
-    margin: 0px;
-}
-
-#productName {
-    font-family: 'Kumbh Sans', sans-serif;
-    font-size: 27px;
-    margin-bottom: 25px;
-}
-
-#description {
-    font-family: sans-serif;
-    font-size: 16px;
-    color: var(--dark_grayish_blue);
-}
-
-.newPrice {
-    font-family: 'Kumbh Sans', sans-serif;
-    width: 70%;
-    height: 50px;
-    line-height: 50px;
-    float: left;
-}
-
-#newPrice {
-    font-weight: 700;
-    font-size: 25px;
-    vertical-align: middle;
-
-
-}
-
-#halfPricePercentage {
-    font-size: 13px;
-    font-weight: 700;
-    color: var(--orange);
-    background-color: var(--pale_orange);
-    margin-left: 10px;
-    padding: 2px;
-
-}
-
-div#oldPrice {
-    width: 25%;
-    height: 50px;
-    line-height: 50px;
-    float: left;
-    text-decoration: line-through;
-    color: var(--grayish_blue);
-    font-size: 13px;
-    font-weight: bold;
-    vertical-align: middle;
-    text-align: right;
-}
-
-.addCartbtns {
-    margin-top: 30px;
-    width: 375px;
-    height: 20px;
-    /*Still couldn't figure out*/
-}
-
-.quantity {
-    width: 70%;
-    border: none;
-    text-align: center;
-    vertical-align: middle;
-    padding-top: 10px;
-    background-color: var(--light_grayish_blue);
-}
-
-.wrapper {
-    width: 90%;
-    height: 45px;
-    margin-top: 15px;
-    margin-right: 10px;
-    margin-bottom: 15px;
-    border: none;
-    border-radius: 10px;
-    background-color: var(--light_grayish_blue);
-    float: left;
-    overflow-x: hidden;
-}
-
-.btn--minus {
-    background-color: var(--light_grayish_blue);
-    vertical-align: middle;
-    padding-top: 10px;
-    padding-left: 20px;
-}
-
-.btn--plus {
-    background-color: var(--light_grayish_blue);
-    vertical-align: middle;
-    padding-top: 10px;
-    padding-right: 20px;
-}
-
-.add {
-    float: left;
-}
-
-#btn_cart {
-    height: 15px;
-    width: 15px;
-}
-
-#span_cart {
-    padding-right: 15px;
-}
-
-.add-to-cart {
-    width: 340px;
-    height: 45px;
-    color: hsl(25, 100%, 94%);
-    font-weight: bold;
-    border: none;
-    border-radius: 8px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 70px;
-    padding-right: 70px;
-    background-color: var(--orange);
-    margin-bottom: 100px;
-    box-shadow: 0px 30px 40px var(--pale_orange);
-}
-
-.attribution {
-    font-size: 15px;
-    text-align: center;
-    padding-top: 60px;
-}
-
-.attribution a {
-    color: hsl(228, 45%, 44%);
-}
-}
+    
+    /*#thumbnail {
+        display: flex;
+        flex: 50%;
+        width: 77%;
+        margin-left: 70px;
+        margin-right: 70px;
+        justify-items: center;
+    }*/
+    
+    .text {
+        margin-top: 80px;
+        width: 100%;
+    
+    }
+    
+    #snCompany {
+        text-transform: uppercase;
+        color: var(--orange);
+        letter-spacing: 1px;
+        font-family: 'Kumbh Sans', sans-serif;
+        font-size: 12px;
+        margin: 0px;
+    }
+    
+    #productName {
+        font-family: 'Kumbh Sans', sans-serif;
+        font-size: 27px;
+        margin-bottom: 25px;
+    }
+    
+    #description {
+        font-family: sans-serif;
+        font-size: 16px;
+        color: var(--dark_grayish_blue);
+    }
+    
+    .newPrice {
+        font-family: 'Kumbh Sans', sans-serif;
+        width: 70%;
+        height: 50px;
+        line-height: 50px;
+        float: left;
+    }
+    
+    #newPrice {
+        font-weight: 700;
+        font-size: 25px;
+        vertical-align: middle;
+    
+    
+    }
+    
+    #halfPricePercentage {
+        font-size: 13px;
+        font-weight: 700;
+        color: var(--orange);
+        background-color: var(--pale_orange);
+        margin-left: 10px;
+        padding: 2px;
+    
+    }
+    
+    div#oldPrice {
+        width: 25%;
+        height: 50px;
+        line-height: 50px;
+        float: left;
+        text-decoration: line-through;
+        color: var(--grayish_blue);
+        font-size: 13px;
+        font-weight: bold;
+        vertical-align: middle;
+        text-align: right;
+    }
+    
+    .addCartbtns {
+        margin-top: 30px;
+        width: 375px;
+        height: 20px;
+        /*Still couldn't figure out*/
+    }
+    
+    .quantity {
+        width: 70%;
+        border: none;
+        text-align: center;
+        vertical-align: middle;
+        padding-top: 10px;
+        background-color: var(--light_grayish_blue);
+    }
+    
+    .wrapper {
+        width: 90%;
+        height: 45px;
+        margin-top: 15px;
+        margin-right: 10px;
+        margin-bottom: 15px;
+        border: none;
+        border-radius: 10px;
+        background-color: var(--light_grayish_blue);
+        float: left;
+        overflow-x: hidden;
+    }
+    
+    .btn--minus {
+        background-color: var(--light_grayish_blue);
+        vertical-align: middle;
+        padding-top: 10px;
+        padding-left: 20px;
+    }
+    
+    .btn--plus {
+        background-color: var(--light_grayish_blue);
+        vertical-align: middle;
+        padding-top: 10px;
+        padding-right: 20px;
+    }
+    
+    .add {
+        float: left;
+    }
+    
+    #btn_cart {
+        height: 15px;
+        width: 15px;
+    }
+    
+    #span_cart {
+        padding-right: 15px;
+    }
+    
+    .add-to-cart {
+        width: 340px;
+        height: 45px;
+        color: hsl(25, 100%, 94%);
+        font-weight: bold;
+        border: none;
+        border-radius: 8px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 70px;
+        padding-right: 70px;
+        background-color: var(--orange);
+        margin-bottom: 100px;
+        box-shadow: 0px 30px 40px var(--pale_orange);
+    }
+    
+    .attribution {
+        font-size: 15px;
+        text-align: center;
+        padding-top: 60px;
+    }
+    
+    .attribution a {
+        color: hsl(228, 45%, 44%);
+    }
+    }
