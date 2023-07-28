@@ -63,7 +63,9 @@ function closeNav() {
 click https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_onclick_dropdown  */
 
 // Get the button, and when the user clicks on it, execute openCloseWindow function
-document.getElementByClass("openCloseBtn").onclick = function() {openCloseWindow()};
+document.getElementByClass("openCloseCart").onclick = function() {
+    openCloseWindow()
+};
 
 /* openCloseWindow toggles between adding and removing the show class, 
 which is used to hide and show the Cart Window */
@@ -71,6 +73,18 @@ function openCloseWindow() {
     document.getElementById("cartWindow").classList.toggle("show");
   }
 
+
+
+/*Avatar */
+/*Make border range onclick*/
+
+/*document.getElementById("avatar").onclick = function() {
+    changeBorderColor()
+};*/
+
+function changeBorderColor() {
+    document.getElementById("avatar").style.border = "3px solid orange";
+  }
 
 
 
