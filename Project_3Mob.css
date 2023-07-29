@@ -354,11 +354,12 @@
     }
     
     .quantity {
-        width: 70%;
+        width: 68%;
         border: none;
         text-align: center;
         vertical-align: middle;
-        padding-top: 10px;
+        padding-top: 11px;
+        padding-bottom: 11px;
         background-color: var(--light_grayish_blue);
     }
     
@@ -378,15 +379,15 @@
     .btn--minus {
         background-color: var(--light_grayish_blue);
         vertical-align: middle;
-        padding-top: 10px;
-        padding-left: 20px;
-    }
+        width: 15%;
+        padding: 11px;
+        }
     
     .btn--plus {
         background-color: var(--light_grayish_blue);
         vertical-align: middle;
-        padding-top: 10px;
-        padding-right: 20px;
+        width: 15%;
+        padding: 11px;
     }
     
     .add {
