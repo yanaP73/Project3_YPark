@@ -50,8 +50,8 @@
                     <a href="#">Contact</a>
                 </div>
             </div>
-                <!--Cart Window-->
-            
+            <!--Cart Window-->
+
             <div class="col-sm-2">
                 <div id="cartWindow" class="cartWindow">
                     <p>Cart</p>
@@ -72,7 +72,8 @@
                         <img id="cart" src=".\images\icon-cart.svg" alt="Cart"></a>
 
                     <!--Avatar-->
-                    <a href="javascript:void(0)"  onclick="changeBorderColor()"><img id="avatar" src=".\images\image-avatar.png" alt="Avatar"></a>
+                    <a href="javascript:void(0)" onclick="changeBorderColor()"><img id="avatar"
+                            src=".\images\image-avatar.png" alt="Avatar"></a>
                 </div>
             </div>
         </div>
@@ -83,7 +84,7 @@
         <!--Main picture of product-->
         <div class="col-sm-6" href="#">
 
-        <!--Thumbnails. 
+            <!--Thumbnails. 
             
 How to create thumbnails for desktop version
                     https://www.w3schools.com/howto/howto_js_tab_img_gallery.asp
@@ -91,7 +92,7 @@ How to create thumbnails for desktop version
 How to create a gallery for mobile version
                         https://www.w3schools.com/howto/howto_js_slideshow.asp-->
 
-        <div class="row" id="thumbnail">
+            <div class="row" id="thumbnail">
                 <div class="slides">
                     <img class="column" src=".\images\image-product-1.jpg" alt="Product image 1">
                 </div>
@@ -105,48 +106,48 @@ How to create a gallery for mobile version
                     <img class="column" src=".\images\image-product-4.jpg" alt="Product image 4">
                 </div>
 
-        <!--Next and previous buttons-->
-        <div id="slidesBtns">
+                <!--Next and previous buttons-->
+                <div id="slidesBtns">
                     <a class="prev" onclick="plusSlides(-1)"><img src=".\images\icon-previous.svg" alt="Previous"></a>
                     <a class="next" onclick="plusSlides(1)"><img src=".\images\icon-next.svg" alt="Next"></a>
                 </div>
             </div>
             <br>
         </div>
-    
 
-   <div class="col-sm-6">
-        <div class="text">
 
-            <h5 id="snCompany">Sneaker Company</h5>
+        <div class="col-sm-6">
+            <div class="text">
 
-            <h2 id="productName">Fall Limited Edition <br> Sneakers</h2>
+                <h5 id="snCompany">Sneaker Company</h5>
 
-            <p id="description">These low-profile sneakers are your perfect casual wear companion. Featuring a
-                durable
-                rubber outer sole, they'll withstand everything the weather can offer.
-            </p>
-        </div>
+                <h2 id="productName">Fall Limited Edition <br> Sneakers</h2>
 
-        <!--Formatted the text. Source used: https://css-tricks.com/forums/topic/howto-middle-align-small-text-next-to-large-text/-->
-        <div class="newPrice"><span id="newPrice">$125.00 </span><span id="halfPricePercentage"> 50%</span></div>
+                <p id="description">These low-profile sneakers are your perfect casual wear companion. Featuring a
+                    durable
+                    rubber outer sole, they'll withstand everything the weather can offer.
+                </p>
+            </div>
+
+            <!--Formatted the text. Source used: https://css-tricks.com/forums/topic/howto-middle-align-small-text-next-to-large-text/-->
+            <div class="newPrice"><span id="newPrice">$125.00 </span><span id="halfPricePercentage"> 50%</span></div>
             <div id="oldPrice">
                 <span>$250.00</span>
             </div>
 
-            <div class="addCartbtns">
-                <div class="wrapper">
+<!--Product quantity buttons*/-->
 
-                    <button title="Minus" class="btn btn--minus" @click="changeCounter('-1')" type="button"
-                        name="button">
-                        <img src=".\images\icon-minus.svg" alt="" />
-                    </button>
-                    <input class="quantity" type="text" name="name" value="0" placeholder="0">
-                    <button class="btn btn--plus" @click="changeCounter('1')" type="button" name="button">
-                        <img src=".\images\icon-plus.svg" alt="Icon plus" />
-                    </button>
-                </div>
+            <div class="wrapper">
+
+                <button title="Minus" class="btn btn--minus" @click="changeCounter('-1')" type="button" name="button">
+                    <img src=".\images\icon-minus.svg" alt="" />
+                </button>
+                <input class="quantity" type="text" name="name" value="0" placeholder="0">
+                <button class="btn btn--plus" @click="changeCounter('1')" type="button" name="button">
+                    <img src=".\images\icon-plus.svg" alt="Icon plus"/>
+                </button>
             </div>
+
 
 
             <div class="add">
@@ -155,12 +156,12 @@ How to create a gallery for mobile version
                         cart</span>
                 </button>
             </div>
-    </div>
+        </div>
 
 
 
         <!--Footer-->
-      <!--  <div class="row">
+        <!--  <div class="row">
 
         <div class="col-sm-12">
             <div class="attribution">
@@ -170,8 +171,8 @@ How to create a gallery for mobile version
             </div>
         </div>-->
     </div>
-</div>
-        <script src="Project_3Mob.js"></script>
+    </div>
+    <script src="Project_3Mob.js"></script>
 </body>
 
 </html>
