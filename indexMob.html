@@ -29,7 +29,7 @@
             <div class="col-sm-3" id="col-sm-3-logo" href="#">
 
                 <!--Hamburger Icon-->
-                <div>
+                <div class="hamb">
                     <span id="hamb" onclick="openNav()"><img src=".\images\icon-menu.svg" alt="icon menu"></span>
                 </div>
                 <!--Logo-->
@@ -39,7 +39,7 @@
             </div>
 
             <!--Side Menu-->
-            <div class="col-sm-6" id="sidenav">
+            <div class="col-sm-6" id="col-sm-6-sidenav">
                 <div id="mySidenav" class="sidenav">
                     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img
                             src=".\images\icon-close.svg" alt="icon close"></a>
@@ -52,7 +52,7 @@
             </div>
             <!--Cart Window-->
 
-            <div class="col-sm-2">
+            <div class="col-sm-2" id="col-sm-2-cartWindow">
                 <div id="cartWindow" class="cartWindow">
                     <p>Cart</p>
                     <hr>
@@ -70,6 +70,7 @@
                 <div id="cartAvatar">
 
                     <!--Cart with quantity space above-->
+                    
                     <a href="javascript:void(0)" class="openCloseCart" onclick="openCloseWindow()">
                         <img id="cart" src=".\images\icon-cart.svg" alt="Cart"><span class="quantityInCart">0</span></a>
 
@@ -139,7 +140,7 @@ How to create a gallery for mobile version
 
             <!--Product quantity buttons*/-->
 
-            <div class="wrapper">
+           <div class="wrapper">
 
                 <button title="Minus" class="btn btn--minus" @click="changeCounter('-1')" type="button" name="button">
                     <img src=".\images\icon-minus.svg" alt="" />
@@ -170,6 +171,7 @@ How to create a gallery for mobile version
                 Coded by <a href="#">Yana Park</a>
             </div>
         </div>
+    
     </div>
     <script src="Project_3Mob.js"></script>
 </body>
