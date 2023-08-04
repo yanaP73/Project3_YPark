@@ -65,7 +65,7 @@ width: 140px;
         border-bottom: 4px solid white;
          }
 
-a.nav-link:hover{
+    a.nav-link:hover{
         display: block;
         border-bottom: 4px solid hsl(26, 100%, 55%);
     }
@@ -89,6 +89,10 @@ a.nav-link:hover{
 #cart {
     padding-right: 17px;
 }
+
+/*Product description*/
+
+/*Gallery*/
     #product1{
         max-width: 75%;
         max-height: 75%;
@@ -136,6 +140,8 @@ a.nav-link:hover{
         
     }
     
+
+    /*Description*/
     .text{
         margin-top: 130px;
         width:420px;

@@ -38,7 +38,7 @@
                 </div>
             </div>
 
-            <!--Side Menu-->
+            <!--Menu-->
             <div class="col-sm-6" id="col-sm-6-sidenav">
                 <div id="mySidenav" class="sidenav">
                     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img
@@ -56,10 +56,11 @@
                 <div id="cartWindow" class="cartWindow">
                     <p>Cart</p>
                     <hr>
-                    
+
                     <p class="empty">Your cart is empty</p>
                     <div class="add">
-                        <button class="add-to-cart" id="add-to-cartWindow" type="button" name="button"><span>Checkout</span>
+                        <button class="add-to-cart" id="add-to-cartWindow" type="button"
+                            name="button"><span>Checkout</span>
                         </button>
                     </div>
                 </div>
@@ -70,7 +71,7 @@
                 <div id="cartAvatar">
 
                     <!--Cart with quantity space above-->
-                    
+
                     <a href="javascript:void(0)" class="openCloseCart" onclick="openCloseWindow()">
                         <img id="cart" src=".\images\icon-cart.svg" alt="Cart"><span class="quantityInCart">0</span></a>
 
@@ -84,8 +85,12 @@
 
         <!--Body-->
 
+        <!--Mobile version-->
         <!--Main picture of product-->
-        <div class="col-sm-6" href="#">
+
+
+        <div class="col-sm-6" id="productDescrMob" href="#">
+
 
             <!--Thumbnails. 
             
@@ -97,6 +102,7 @@ How to create a gallery for mobile version
 
             <div class="row" id="thumbnail">
                 <div class="slides">
+
                     <img class="column" src=".\images\image-product-1.jpg" alt="Product image 1">
                 </div>
                 <div class="slides">
@@ -118,7 +124,30 @@ How to create a gallery for mobile version
             <br>
         </div>
 
+        <!--Tablet Version-->
+        <div class="col-sm-6" id="productDescrTab" href="#">
+            <div>
+                <img id="product1" src=".\images\image-product-1.jpg" alt="Product 1 image">
+            </div>
 
+            <!--Thumbnails. https://www.w3schools.com/howto/howto_js_tab_img_gallery.asp-->
+            <div class="row" id="thumbnail">
+                <div class="column">
+                    <img src=".\images\image-product-1-thumbnail.jpg" alt="Product image 1 thumbnail">
+                </div>
+                <div class="column">
+                    <img src=".\images\image-product-2-thumbnail.jpg" alt="Product image 2 thumbnail">
+                </div>
+                <div class="column">
+                    <img src=".\images\image-product-3-thumbnail.jpg" alt="Product image 3 thumbnail">
+                </div>
+                <div class="column">
+                    <img src=".\images\image-product-4-thumbnail.jpg" alt="Product image 4 thumbnail">
+                </div>
+            </div>
+        </div>
+
+        <!--Product Description-->
         <div class="col-sm-6">
             <div class="text">
 
@@ -140,7 +169,7 @@ How to create a gallery for mobile version
 
             <!--Product quantity buttons*/-->
 
-           <div class="wrapper">
+            <div class="wrapper">
 
                 <button title="Minus" class="btn btn--minus" @click="changeCounter('-1')" type="button" name="button">
                     <img src=".\images\icon-minus.svg" alt="" />
@@ -171,7 +200,7 @@ How to create a gallery for mobile version
                 Coded by <a href="#">Yana Park</a>
             </div>
         </div>
-    
+
     </div>
     <script src="Project_3Mob.js"></script>
 </body>
