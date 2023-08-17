@@ -71,6 +71,21 @@
                     </div>
                 </div>
 
+                <!--Cart Window-->
+
+                <div class="col-sm-2" id="col-sm-2-cartWindow">
+                    <div id="cartWindow" class="cartWindow">
+                        <p>Cart</p>
+                        <hr>
+
+                        <p class="empty">Your cart is empty</p>
+                        <div class="add">
+                            <button class="add-to-cart" id="add-to-cartWindow" type="button" name="button"><span>Checkout</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
                 <!--Cart and Avatar-->
                 <div class="col-sm-1-cartAvatar">
                     <div id="cartAvatar">
@@ -225,7 +240,7 @@ How to create a gallery for mobile version
                 </div>
 
                 <!--Menu-->
-                <div class="col-sm-7">
+                <div class="col-sm-7" id="col-sm-7-menu">
                     <ul class="nav">
                         <li class="nav-item">
                             <a class="nav-link" id="nav-link-coll" href="#">Collections</a>
@@ -245,9 +260,15 @@ How to create a gallery for mobile version
                     </ul>
                 </div>
 
-                <!--Cart Window-->
+                
 
-                <div class="col-sm-1" id="col-sm-1-cartWindow">
+                <!--Cart and Avatar-->
+                <div class="col-sm-3" id="col-sm-3-cartAvatar">
+                    <div id="cartAvatar">
+                        <img id="cart" src=".\images\icon-cart.svg" alt="Cart">
+                        <!--Cart Window-->
+
+                
                     <div id="cartWindow" class="cartWindow">
                         <p>Cart</p>
                         <hr>
@@ -259,12 +280,7 @@ How to create a gallery for mobile version
                             </button>
                         </div>
                     </div>
-                </div>
-
-                <!--Cart and Avatar-->
-                <div class="col-sm-1">
-                    <div id="cartAvatar">
-                        <img id="cart" src=".\images\icon-cart.svg" alt="Cart">
+                
                         <img id="avatar" src=".\images\image-avatar.png" alt="Avatar">
                     </div>
                 </div>
@@ -272,6 +288,7 @@ How to create a gallery for mobile version
 
             <!--Body-->
             <!--Main picture of product-->
+            <div class="row" id="row-product">
             <div class="col-sm-6" href="#">
                 <div>
                     <img id="product1" src=".\images\image-product-1.jpg" alt="Product 1 image">
@@ -333,7 +350,7 @@ How to create a gallery for mobile version
 
             </div>
 
-
+        </div>
             <!--Footer-->
             <div class="row">
 
