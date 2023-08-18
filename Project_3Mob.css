@@ -641,11 +641,12 @@ p.empty {
 /*Header*/
 #header {
     display: block;
-    border-bottom: 2px solid hsl(223, 64%, 98%);
+    width: 80%;
+    height: 82px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
-    width: 80%;
+    border-bottom: 2px solid var(--light_grayish_blue);
     
     
     
@@ -706,7 +707,7 @@ li a:hover{
 /*Cart Window*/
     
 .cartWindow {
-    display: ;
+    display: none;
     height: 60%;
     width: 90%;
     margin-top: 50px;
