@@ -262,12 +262,24 @@ How to create a gallery for mobile version
 
                 
 
-                <!--Cart and Avatar-->
+<!------------------------------Cart and Avatar---------------------------------------->
                 <div class="col-sm-3" id="col-sm-3-cartAvatar">
                     <div id="cartAvatar">
-                        <img id="cart" src=".\images\icon-cart.svg" alt="Cart">
-                        <!--Cart Window-->
 
+<!---------------------Cart with quantity space above--------------------------------->
+                        <div id="cartQuantity">
+                            <a href="javascript:void(0)" class="openCloseCart" onclick="openCloseWindow()">
+                                <img id="cart" src=".\images\icon-cart.svg" alt="Cart"></a>
+                            <span class="quantityInCart">0</span>
+                        </div>
+
+<!------------------------------------Avatar------------------------------------------->
+
+                        <div><a href="javascript:void(0)" onclick="changeBorderColor()"><img id="avatar"
+                            src=".\images\image-avatar.png" alt="Avatar"></a>
+                            </div>
+                        
+<!--------------------------------Cart Window------------------------------------------>
                 
                     <div id="cartWindow" class="cartWindow">
                         <p>Cart</p>
@@ -280,14 +292,15 @@ How to create a gallery for mobile version
                             </button>
                         </div>
                     </div>
-                
-                        <img id="avatar" src=".\images\image-avatar.png" alt="Avatar">
-                    </div>
+                        </div>
                 </div>
-            </div>
 
-            <!--Body-->
-            <!--Main picture of product-->
+
+
+
+<!--------------------------------------Body-------------------------------------------->
+<!-----------------------------Main picture of product---------------------------------->
+
             <div class="row" id="row-product">
             <div class="col-sm-6" href="#">
                 <div>
