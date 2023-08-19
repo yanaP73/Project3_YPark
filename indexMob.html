@@ -22,17 +22,17 @@
 
 <body>
 
-    <!--------------------------------------------All versions----------------------------------------------------------------------------->
+<!--------------------------------------------Mobile and tab  versions----------------------------------------------------------------------------->
     <div class="container" id="body">
 
 
-        <!--Header-->
+<!-----------------------------------------------Header--------------------------------->
         <div class="mobile">
             <div class="row" id="header">
 
                 <div class="col-sm-3" id="col-sm-3-logo" href="#">
 
-                    <!--Hamburger Icon-->
+        <!--------------------------Hamburger Icon------------------------>
                     <div class="hamb">
                         <span id="hamb" onclick="openNav()"><img src=".\images\icon-menu.svg" alt="icon menu"></span>
                     </div>
@@ -56,20 +56,7 @@
                     </div>
                 </div>
 
-                <!--Cart Window-->
 
-                <div class="col-sm-2" id="col-sm-2-cartWindow">
-                    <div id="cartWindow" class="cartWindow">
-                        <p>Cart</p>
-                        <hr>
-
-                        <p class="empty">Your cart is empty</p>
-                        <div class="add">
-                            <button class="add-to-cart" id="add-to-cartWindow" type="button" name="button"><span>Checkout</span>
-                            </button>
-                        </div>
-                    </div>
-                </div>
 
                 <!--Cart Window-->
 
@@ -80,7 +67,8 @@
 
                         <p class="empty">Your cart is empty</p>
                         <div class="add">
-                            <button class="add-to-cart" id="add-to-cartWindow" type="button" name="button"><span>Checkout</span>
+                            <button class="add-to-cart" id="add-to-cartWindow" type="button"
+                                name="button"><span>Checkout</span>
                             </button>
                         </div>
                     </div>
@@ -105,21 +93,17 @@
             </div>
 
 
-            <!--Body-->
+<!--------------------------------------Body-------------------------------------------------------------------------->
 
-            <!---------------------Mobile version------------------------------------------------------------------------------------------>
-            <!--Main picture of product-->
+<!---------------------Mobile version------------------------------------------------------------------------------------------>
+<!---------------------------------Main picture of product------------------------------------------------------------>
 
             <div>
                 <div class="col-sm-6" id="productDescrMob" href="#">
 
 
-                    <!--Thumbnails. 
-            
-How to create thumbnails for desktop version
-                    https://www.w3schools.com/howto/howto_js_tab_img_gallery.asp
-
-How to create a gallery for mobile version
+<!-----------------------------------Thumbnails------------------------------------------------------------------------------->
+<!--How to create a gallery for mobile version
                         https://www.w3schools.com/howto/howto_js_slideshow.asp-->
 
                     <div class="row" id="thumbnail">
@@ -137,7 +121,7 @@ How to create a gallery for mobile version
                             <img class="column" src=".\images\image-product-4.jpg" alt="Product image 4">
                         </div>
 
-                        <!--Next and previous buttons-->
+<!-------------------------------------Next and previous buttons---------------------------------->
                         <div id="slidesBtns">
                             <a class="prev" onclick="plusSlides(-1)"><img src=".\images\icon-previous.svg"
                                     alt="Previous"></a>
@@ -147,13 +131,19 @@ How to create a gallery for mobile version
                     <br>
                 </div>
             </div>
-            <!--Tablet Version-->
+
+
+<!-----------------------------Tablet Version--------------------------------------------------->
+          <!--Picture of product and thumbnails-->
+
             <div class="col-sm-12" id="productDescrTab" href="#">
                 <div>
                     <img id="product1" src=".\images\image-product-1.jpg" alt="Product 1 image">
                 </div>
 
-                <!--Thumbnails. https://www.w3schools.com/howto/howto_js_tab_img_gallery.asp-->
+<!-------------------------------Thumbnails-------------------------------------------->
+<!-- How to create thumbnails https://www.w3schools.com/howto/howto_js_tab_img_gallery.asp-->
+
                 <div class="row" id="thumbnail">
                     <div class="column">
                         <img src=".\images\image-product-1-thumbnail.jpg" alt="Product image 1 thumbnail">
@@ -170,8 +160,9 @@ How to create a gallery for mobile version
                 </div>
             </div>
 
-            <!--Product Description-->
-            <div class="r"></div>
+
+<!----------------------------------Product Description------------------------------------------->
+            <div class="row"></div>
             <div class="col-sm-12" id="textTab">
                 <div class="text">
 
@@ -185,14 +176,20 @@ How to create a gallery for mobile version
                     </p>
                 </div>
 
-                <!--Formatted the text. Source used: https://css-tricks.com/forums/topic/howto-middle-align-small-text-next-to-large-text/-->
+
+
+<!---------------------------------------------Price------------------------------------------->
+<!-----------------Formatted the text. Source used: https://css-tricks.com/forums/topic/howto-middle-align-small-text-next-to-large-text/-->
+
+<div class="price">
                 <div class="newPrice"><span id="newPrice">$125.00 </span><span id="halfPricePercentage"> 50%</span>
                 </div>
                 <div id="oldPrice">
                     <span>$250.00</span>
                 </div>
+            </div>
 
-                <!--Product quantity buttons*/-->
+<!---------------------------Quantity buttons-------------------------------------------------->
 
                 <div class="wrapper">
 
@@ -207,6 +204,7 @@ How to create a gallery for mobile version
                 </div>
 
 
+<!---------------------------Button to add product in the cart--------------------------------------->
 
                 <div class="add">
                     <button class="add-to-cart" type="button" name="button"><span id="span_cart"><img id=btn_cart
@@ -218,8 +216,9 @@ How to create a gallery for mobile version
 
 
 
-            <!--Footer-->
-            <div class="col-sm-12" id="col-sm-12-footerTab">
+<!--------------------------------------Footer---------------------------------------------------->
+<div class="row"></div>           
+<div class="col-sm-12" id="col-sm-12-footerTab">
                 <div class="attribution">
                     Challenge by
                     <link a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor.</a><br>
@@ -260,125 +259,127 @@ How to create a gallery for mobile version
                     </ul>
                 </div>
 
-                
 
-<!------------------------------Cart and Avatar---------------------------------------->
+
+                <!------------------------------Cart and Avatar---------------------------------------->
                 <div class="col-sm-3" id="col-sm-3-cartAvatar">
                     <div id="cartAvatar">
 
-<!---------------------Cart with quantity space above--------------------------------->
+                        <!---------------------Cart with quantity space above--------------------------------->
                         <div id="cartQuantity">
-                            <a href="javascript:void(0)" class="openCloseCart" onclick="openCloseWindow()">
-                                <img id="cart" src=".\images\icon-cart.svg" alt="Cart"></a>
+                            <a href="javascript:void(0)" class="openCloseCart" onclick="openCloseWindow()"><img id="cart" src=".\images\icon-cart.svg" alt="Cart"></a>
                             <span class="quantityInCart">0</span>
                         </div>
 
-<!------------------------------------Avatar------------------------------------------->
+                        <!------------------------------------Avatar------------------------------------------->
 
-                        <div><a href="javascript:void(0)" onclick="changeBorderColor()"><img id="avatar"
-                            src=".\images\image-avatar.png" alt="Avatar"></a>
+                        <div><a href="javascript:void(0)" onclick="changeBorderColor()"><img id="avatar" src=".\images\image-avatar.png" alt="Avatar"></a>
+                        </div>
+
+                        <!--------------------------------Cart Window------------------------------------------>
+
+                        <div id="cartWindow" class="cartWindow">
+                            <p>Cart</p>
+                            <hr>
+
+                            <p class="empty">Your cart is empty</p>
+                            <div class="add">
+                                <button class="add-to-cart" id="add-to-cartWindow" type="button"name="button"><span>Checkout</span>
+                                </button>
                             </div>
-                        
-<!--------------------------------Cart Window------------------------------------------>
-                
-                    <div id="cartWindow" class="cartWindow">
-                        <p>Cart</p>
-                        <hr>
-
-                        <p class="empty">Your cart is empty</p>
-                        <div class="add">
-                            <button class="add-to-cart" id="add-to-cartWindow" type="button"
-                                name="button"><span>Checkout</span>
-                            </button>
                         </div>
                     </div>
-                        </div>
                 </div>
 
 
 
 
-<!--------------------------------------Body-------------------------------------------->
-<!-----------------------------Main picture of product---------------------------------->
+                <!--------------------------------------Body-------------------------------------------->
+                <!-----------------------------Main picture of product---------------------------------->
 
-            <div class="row" id="row-product">
-            <div class="col-sm-6" href="#">
-                <div>
-                    <img id="product1" src=".\images\image-product-1.jpg" alt="Product 1 image">
+                <div class="row" id="row-product">
+                    <div class="col-sm-6" href="#">
+                        <div>
+                            <img id="product1" src=".\images\image-product-1.jpg" alt="Product 1 image">
+                        </div>
+
+
+                        <!------------------------------------Thumbnails------------------------------------------->
+                        <!--https://www.w3schools.com/howto/howto_js_tab_img_gallery.asp-->
+
+                        <div class="row" id="thumbnail">
+                            <div class="column">
+                                <img src=".\images\image-product-1-thumbnail.jpg" alt="Product image 1 thumbnail">
+                            </div>
+                            <div class="column">
+                                <img src=".\images\image-product-2-thumbnail.jpg" alt="Product image 2 thumbnail">
+                            </div>
+                            <div class="column">
+                                <img src=".\images\image-product-3-thumbnail.jpg" alt="Product image 3 thumbnail">
+                            </div>
+                            <div class="column">
+                                <img src=".\images\image-product-4-thumbnail.jpg" alt="Product image 4 thumbnail">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="text">
+
+                            <h5 id="snCompany">Sneaker Company</h5>
+
+                            <h2 id="productName">Fall Limited Edition <br> Sneakers</h2>
+
+                            <p id="description">These low-profile sneakers are your perfect casual wear companion.
+                                Featuring a
+                                durable
+                                rubber outer sole, they'll withstand everything the weather can offer.
+                            </p>
+                            <!--Formatted the text. Source used: https://css-tricks.com/forums/topic/howto-middle-align-small-text-next-to-large-text/-->
+                            <div id="newPrice"><span id="discountPrice">$125.00 </span><span id="halfPrice"> 50%</span>
+                            </div>
+                            <p id="oldPrice">$250.00</p>
+                            <div class="addCartbtns">
+                                <div class="wrapper">
+
+                                    <button title="Minus" class="btn btn--minus" @click="changeCounter('-1')"
+                                        type="button" name="button">
+                                        <img src=".\images\icon-minus.svg" alt="" />
+                                    </button>
+                                    <input class="quantity" type="text" name="name" value="0" placeholder="0">
+                                    <button class="btn btn--plus" @click="changeCounter('1')" type="button"
+                                        name="button">
+                                        <img src=".\images\icon-plus.svg" alt="Icon plus" />
+                                    </button>
+                                </div>
+
+                                <div class="add">
+                                    <button class="add-to-cart" type="button" name="button"><span id="span_cart"><img
+                                                id=btn_cart src=".\images\icon-cart_lightcolor.svg"
+                                                alt="Cart icon"></span><span>Add to
+                                            cart</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
                 </div>
+                <!--Footer-->
+                <div class="row">
 
-                <!--Thumbnails. https://www.w3schools.com/howto/howto_js_tab_img_gallery.asp-->
-                <div class="row" id="thumbnail">
-                    <div class="column">
-                        <img src=".\images\image-product-1-thumbnail.jpg" alt="Product image 1 thumbnail">
-                    </div>
-                    <div class="column">
-                        <img src=".\images\image-product-2-thumbnail.jpg" alt="Product image 2 thumbnail">
-                    </div>
-                    <div class="column">
-                        <img src=".\images\image-product-3-thumbnail.jpg" alt="Product image 3 thumbnail">
-                    </div>
-                    <div class="column">
-                        <img src=".\images\image-product-4-thumbnail.jpg" alt="Product image 4 thumbnail">
+                    <div class="col-sm-12">
+                        <div class="attribution">
+                            Challenge by
+                            <link a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend
+                            Mentor</a>.<br>
+                            Coded by <a href="#">Yana Park</a>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6">
-                <div class="text">
 
-                    <h5 id="snCompany">Sneaker Company</h5>
-
-                    <h2 id="productName">Fall Limited Edition <br> Sneakers</h2>
-
-                    <p id="description">These low-profile sneakers are your perfect casual wear companion. Featuring a
-                        durable
-                        rubber outer sole, they'll withstand everything the weather can offer.
-                    </p>
-                    <!--Formatted the text. Source used: https://css-tricks.com/forums/topic/howto-middle-align-small-text-next-to-large-text/-->
-                    <div id="newPrice"><span id="discountPrice">$125.00 </span><span id="halfPrice"> 50%</span>
-                    </div>
-                    <p id="oldPrice">$250.00</p>
-                    <div class="addCartbtns">
-                        <div class="wrapper">
-
-                            <button title="Minus" class="btn btn--minus" @click="changeCounter('-1')" type="button"
-                                name="button">
-                                <img src=".\images\icon-minus.svg" alt="" />
-                            </button>
-                            <input class="quantity" type="text" name="name" value="0" placeholder="0">
-                            <button class="btn btn--plus" @click="changeCounter('1')" type="button" name="button">
-                                <img src=".\images\icon-plus.svg" alt="Icon plus" />
-                            </button>
-                        </div>
-
-                        <div class="add">
-                            <button class="add-to-cart" type="button" name="button"><span id="span_cart"><img
-                                        id=btn_cart src=".\images\icon-cart_lightcolor.svg"
-                                        alt="Cart icon"></span><span>Add to
-                                    cart</span>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-            <!--Footer-->
-            <div class="row">
-
-                <div class="col-sm-12">
-                    <div class="attribution">
-                        Challenge by
-                        <link a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend
-                        Mentor</a>.<br>
-                        Coded by <a href="#">Yana Park</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <script src="Project_3Mob.js"></script>
+            <script src="Project_3Mob.js"></script>
 </body>
 
 </html>
