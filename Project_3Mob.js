@@ -1,26 +1,10 @@
-/*$(document).ready(function() {
-    $("#avatar").on("click", function() {
-       
-    });
-});*/
 
-/*$(document).ready(function() {
-    $("href").on({
-        "mouseover": function(){
-            if($(this).id("avatar").match(/index.html/)){
-                alert("This is avatar!")
-        }
-          },
-    "mouseover" : function(){
-        if($(this).id("thumbnail").match(/index.html/)){
-            alert("This is thumnail!")
-        }
-    }
-    });
-});
-*/
 
-//Slides
+
+
+
+
+//-----------------------------------Slides Mobile version---------------------------------------------------------//
 
 let slideIndex = 1;
 showSlides(slideIndex);
@@ -46,7 +30,7 @@ function showSlides(n) {
     }
    
     slides[slideIndex - 1].style.display = "block";
-    dots[slideIndex - 1].className += " active";
+    
 }
 
 /*Side Menu*/
