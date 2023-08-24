@@ -48,7 +48,7 @@ function closeNav() {
 click https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_onclick_dropdown  */
 
 // Get the button, and when the user clicks on it, execute openCloseWindow function
-document.getElementByClass("openCloseCart").onclick = function() {
+document.getElementsByClass("openCloseCart").onclick = function() {
     openCloseWindow()
 };
 
