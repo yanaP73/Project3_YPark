@@ -28,102 +28,101 @@ Users should be able to:
 <li>Add items to the cart</li>
 <li>View the cart and remove items from it</li>
 </ul>
+
 ### The challenge
 
-Users should be able to:
+The biggest challenge was creating responsive layout.
 
-- View the optimal layout for the site depending on their device's screen size
-- See hover states for all interactive elements on the page
-- Open a lightbox gallery by clicking on the large product image
-- Switch the large product image by clicking on the small thumbnail images
-- Add items to the cart
-- View the cart and remove items from it
 
 ### Screenshot
 
-![](./images/Project3_screenshot.jpeg)
+![Project screenshot](./images/Project3_screenshot.jpeg)
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+Live Site URL: (https://yanap73.github.io/Project3_YPark/)
 
 ## My process
+- First, I created a desktop version of the application. Since it was not a right approach, it was difficult to create a mobile version.
+- I started from creating a header which included menu, logo, cart icon, and avatar image. I used Bootstrap for layout.
+- Worked on the product description which included images and text.
+- Created buttons for adding amount of the product to the cart. 
+
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
+- Bootstrap
 - Flexbox
 - CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+- JavaScript
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I learned more HTML, CSS, and JavaScript
 
-To see how you can add code snippets, see below:
 
-```html
 <h1>Some HTML code I'm proud of</h1>
+
+ <div id="cartQuantity">
+    <a href="javascript:void(0)" class="openCloseCart" onclick="openCloseWindow()">
+      <img id="cart" src=".\images\icon-cart.svg" alt="Cart"></a>
+        <span class="quantityInCart">0</span>
+  </div>
 ```
-```css
-.proud-of-this-css {
-  color: papayawhip;
+<h1>Some CSS code I'm proud of</h1>
+.quantityInCart {
+    background-color: var(--orange);
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    font-size: 8px;
+    color: white;
+    position: absolute;
+    top: -5px;
+    right: 10%;
+    padding: 2px 7px;
 }
+
+<h1>Some JavaScript code I'm proud of</h1>
 ```
 ```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
 }
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+I would like to work more on Javascript in the future.
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [1](https://www.w3schools.com/howto/howto_js_tab_img_gallery.asp-->) - This helped me to create image gallery. 
+- [2](https://blog.logrocket.com/create-responsive-mobile-menu-with-css-no-javascript/) - This article helped me understand how to create a responsive mobile menu. 
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Yana Park](https://yanap73.github.io/Project3_YPark/)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-#### Features
-<li><h5>Feature 1</h5></li>
-<li><h5>Feature 2</h5></li>
-<li><h5>Feature 3</h5></li>
-<li><h5>Feature 4</h5></li>
+I really thank my mentor for giving good explanations and giving great tips on how to use CSS, JavaScript, and Bootstrap.
+
 
 
 ### Technologies Used
@@ -132,28 +131,7 @@ This is where you can give a hat tip to anyone who helped you out on this projec
 <li>HTML</li>
 <li>CSS</li>
 <li>JavaScript</li>
+<li>Bootstrap</li>
 <li>Git</li>
 <li>Github</li>
 </ul>
-
-
-### Testing
-
-
-### Validation
-
-
-#### HTML
-
-#### CSS
-
-#### Javascript
-
-
-
-### Deployment
-
-### Media
-
-#### Acknowledgements
-
