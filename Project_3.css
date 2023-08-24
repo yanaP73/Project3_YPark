@@ -313,14 +313,11 @@ p.empty {
 #priceInCart{
    margin-left: 10px;
 }
-#totalPriceInCart{
-    
-}
+
 #iconDelete{
     margin-left: 10px;
     float:right;
 }
-
 
 .add {
     width: 100%;
