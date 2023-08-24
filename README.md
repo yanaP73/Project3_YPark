@@ -135,10 +135,6 @@ I really thank my mentor for giving good explanations and giving great tips on h
 <li>Git</li>
 <li>Github</li>
 </ul>
-<<<<<<< HEAD
 
 
 
-
-=======
->>>>>>> b7ff66e84db49c6b35b14e3fc11dcdc1fd533856
